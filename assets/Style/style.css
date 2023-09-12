@@ -1,0 +1,63 @@
+header{
+    width: 99vw;
+    height: 49px;
+    position: fixed;
+    border-radius: 10px;
+    top: 0;
+    z-index: 10;
+
+}
+
+header>nav>ul{
+    position: absolute;
+    top: 5px;
+    right: 40px;
+}
+
+header>nav>ul>li{
+    display: inline-block;
+    margin-right: 20px;
+    border-right: 20px;
+    font-size: 19px;
+    color: white;
+}
+
+header>nav>ul>li>a{
+   text-decoration: none;
+    color: black;
+    margin-left: 9px;
+    font-weight: bold;
+
+}
+
+.owner{
+    padding-top: 200px;
+    padding-left: 20px;
+}
+
+.img{
+  height: 250px;
+    width:250px;
+   border-radius: 30px;
+}
+
+section{
+    padding-left: 20px;
+}
+
+main>section>section:nth-child(1)>h4{
+      font-size: 20px;
+}
+
+section>hgroup{
+    position: relative;
+    margin: auto;
+    left: 45%;
+    bottom: 45%;
+    text-align: center;
+    display: inline-block;
+}
+
+
+
+
