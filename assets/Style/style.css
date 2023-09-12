@@ -36,12 +36,13 @@ header>nav>ul>li>a{
 }
 
 .img{
-  height: 250px;
-    width:250px;
+  height: 350px;
+    width:350px;
    border-radius: 30px;
 }
 
 section{
+    height: 100vh;
     padding-left: 20px;
 }
 
@@ -50,13 +51,52 @@ main>section>section:nth-child(1)>h4{
 }
 
 section>hgroup{
-    position: relative;
+    position: absolute;
     margin: auto;
     left: 45%;
     bottom: 45%;
     text-align: center;
     display: inline-block;
 }
+
+.h2{
+    font-size: 30px;
+    margin-left: 0px;
+    margin-right: 90px;
+    bottom: 10px;
+    display: inline-block;
+
+}
+
+.h3{
+    position: absolute;
+    font-size: 35px;
+    bottom: 87px;
+    margin: auto;
+
+
+}
+
+h1 {
+    padding-top: 10px;
+    padding-left: 5px;
+    font-size: 30px;
+
+}
+
+
+
+
+
+
+main>section>section:nth-child(2)>nav{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+
 
 
 
