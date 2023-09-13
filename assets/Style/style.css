@@ -1,7 +1,12 @@
-*{
-    scroll-behavior: smooth;
+
+body{
+    position: relative;
 }
 
+html{
+    scroll-behavior: smooth;
+
+}
 
 header{
     width: 99vw;
@@ -19,10 +24,11 @@ header{
 }
 
 .logo{
-    flex: 4.5rem;
+    flex: 5.5rem;
     color: black;
     cursor: default;
     font-weight: 600;
+    font-size: 19px;
 }
 
 header>nav>ul{
@@ -72,6 +78,7 @@ main>section:nth-child(1){
 main>section>section:nth-child(1)>h4{
       font-size: 20px;
      margin-left: 20px;
+     display: inline-block;
 }
 
 /*.home{*/
@@ -125,50 +132,53 @@ main>section>section:nth-child(1)>h4{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 55%;
+    top: 53%;
     left: 43%;
-    font-size:1.25vw;
+    font-size:1.6rem;
     font-family:"Tsukushi A Round Gothic";
 }
-/*section>hgroup{*/
-/*    position: absolute;*/
-/*    margin: auto;*/
-/*    left: 45%;*/
-/*    bottom: 45%;*/
-/*    text-align: center;*/
-/*    display: inline-block;*/
-/*}*/
 
-/*.h2{*/
-/*    font-size: 30px;*/
-/*    margin-left: 10px;*/
-/*    margin-right: 90px;*/
-/*    bottom: 10px;*/
-/*    display: inline-block;*/
+.social-media img{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    margin: 1rem 1rem 1rem;
+     position: relative;
+    /*margin: auto;*/
+    left: 45%;
+    bottom: 130px;
+    height: 1.5rem;
+    width: 1.5rem;
+    font-size: 2rem;
+    border-radius: 50%;
+    color: #0ef;
+    border: 1rem solid #1f242d;
+    transition: .5s ease;
 
-/*}*/
-
-/*.h3{*/
-/*    position: absolute;*/
-/*    font-size: 35px;*/
-/*    bottom: 87px;*/
-/*    margin: auto;*/
-
-
-/*}*/
-
-/*h1 {*/
-/*    padding-top: 10px;*/
-/*    padding-left: 5px;*/
-/*    font-size: 30px;*/
-
-
-
-.nav{
-    position: absolute;
-    bottom: 0;
-    right: 0;
 }
+
+.social-media img:hover{
+    background: #0ef;
+    color: #323946;
+    box-shadow: 0 0 1rem #0ef;
+}
+
+
+
+    /*display: inline-flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*position: absolute;*/
+    /*width: 4rem;*/
+    /*height: 4rem;*/
+    /*background: transparent;*/
+    /*border: 2px solid black;*/
+    /*border-radius: 50%;*/
+    /*font-size: 2rem;*/
+    /*color: #1f242d;*/
+    /*margin: 3rem 3rem 1.5rem 3rem;*/
+
 
 
 /*====================About Me======================*/
