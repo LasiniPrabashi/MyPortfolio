@@ -29,6 +29,13 @@ header>nav>ul>li>a{
     font-weight: bold;
 
 }
+main>section:nth-child(1){
+    width: 100vw;
+    height: 100vh;
+    background-size: 100vw 100vh;
+    background-color: #063939;
+    position: relative;
+}
 
 .owner{
     padding-top: 200px;
@@ -41,13 +48,11 @@ header>nav>ul>li>a{
    border-radius: 30px;
 }
 
-section{
-    height: 100vh;
-    padding-left: 20px;
-}
+
 
 main>section>section:nth-child(1)>h4{
       font-size: 20px;
+
 }
 
 section>hgroup{
@@ -84,16 +89,52 @@ h1 {
 
 }
 
-
-
-
-
-
 main>section>section:nth-child(2)>nav{
     position: absolute;
     bottom: 20px;
-    right: 20px;
+    right: 30px;
 }
+
+
+/*====================About Me======================*/
+
+
+main>section:nth-child(2){
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    /*font-size: 0;*/
+    background-size: 100vw 100vh;
+    background-color: #0D5657;
+}
+
+main>section:nth-child(2)>h1{
+    position: absolute;
+    margin: auto;
+    left: 45%;
+    right: 0;
+    top: 20px;
+}
+
+section:nth-child(2)>div{
+    width: 20vw;
+    height: 50vh;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+ main>section:nth-child(2)>div>aside>img{
+    width: 20vw;
+    height: 45vh;
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    border-radius: 100%;
+
+}
+
+
+
 
 
 
