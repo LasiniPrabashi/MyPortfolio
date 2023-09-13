@@ -1,11 +1,28 @@
+*{
+    scroll-behavior: smooth;
+}
+
+
 header{
     width: 99vw;
     height: 49px;
     position: fixed;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem ;
+    left: 0;
     top: 0;
     z-index: 10;
 
+}
+
+.logo{
+    flex: 4.5rem;
+    color: black;
+    cursor: default;
+    font-weight: 600;
 }
 
 header>nav>ul{
@@ -30,11 +47,13 @@ header>nav>ul>li>a{
 
 }
 main>section:nth-child(1){
-    width: 100vw;
     height: 100vh;
+    width: 100vw;
     background-size: 100vw 100vh;
     background-color: #063939;
     position: relative;
+    bottom: 45%;
+
 }
 
 .owner{
@@ -52,47 +71,103 @@ main>section:nth-child(1){
 
 main>section>section:nth-child(1)>h4{
       font-size: 20px;
-
+     margin-left: 20px;
 }
 
-section>hgroup{
+/*.home{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    position: absolute;*/
+/*    margin: auto;*/
+/*    left: 40%;*/
+/*     top: 20%;*/
+/*}*/
+
+.home-content h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     margin: auto;
-    left: 45%;
-    bottom: 45%;
-    text-align: center;
-    display: inline-block;
+    left: 40%;
+    top: 30%;
+    font-size: 2rem;
+    font-weight: 600;
 }
 
-.h2{
-    font-size: 30px;
-    margin-left: 0px;
-    margin-right: 90px;
-    bottom: 10px;
-    display: inline-block;
+.home-content h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   position: absolute;
+   top: 40%;
+    left: 43%;
+    font-size: 2.6rem;
+    line-height: 1;
+    font-weight: 700;
 
 }
 
-.h3{
+.home-content h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    font-size: 35px;
-    bottom: 87px;
-    margin: auto;
-
-
+    top: 38%;
+    left: 40%;
+    font-size: 2.5rem;
+    font-weight: 300;
 }
 
-h1 {
-    padding-top: 10px;
-    padding-left: 5px;
-    font-size: 30px;
-
-}
-
-main>section>section:nth-child(2)>nav{
+.home-content p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    bottom: 20px;
-    right: 30px;
+    top: 55%;
+    left: 43%;
+    font-size:1.25vw;
+    font-family:"Tsukushi A Round Gothic";
+}
+/*section>hgroup{*/
+/*    position: absolute;*/
+/*    margin: auto;*/
+/*    left: 45%;*/
+/*    bottom: 45%;*/
+/*    text-align: center;*/
+/*    display: inline-block;*/
+/*}*/
+
+/*.h2{*/
+/*    font-size: 30px;*/
+/*    margin-left: 10px;*/
+/*    margin-right: 90px;*/
+/*    bottom: 10px;*/
+/*    display: inline-block;*/
+
+/*}*/
+
+/*.h3{*/
+/*    position: absolute;*/
+/*    font-size: 35px;*/
+/*    bottom: 87px;*/
+/*    margin: auto;*/
+
+
+/*}*/
+
+/*h1 {*/
+/*    padding-top: 10px;*/
+/*    padding-left: 5px;*/
+/*    font-size: 30px;*/
+
+
+
+.nav{
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 
@@ -111,26 +186,64 @@ main>section:nth-child(2){
 main>section:nth-child(2)>h1{
     position: absolute;
     margin: auto;
-    left: 45%;
-    right: 0;
-    top: 20px;
+    left: 0;
+    top: 5%;
 }
 
-section:nth-child(2)>div{
-    width: 20vw;
+.about {
+    width: 22vw;
     height: 50vh;
     border: 2px solid black;
     border-radius: 30px;
+    position: absolute;
+    top: 25%;
+    margin-left: 30px;
+
 }
 
  main>section:nth-child(2)>div>aside>img{
     width: 20vw;
     height: 45vh;
     position: absolute;
-    top: 150px;
-    left: 20px;
+    top: 10px;
+    left: 15px;
     border-radius: 100%;
 
+}
+
+body>main>section:nth-child(2)>article{
+    width: 63vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+body>main>section:nth-child(2)>article>p:nth-child(1){
+    position: relative;
+    margin: auto;
+    left: 0;
+    top: 42%;
+    font-size: 2vw;
+    font-family:"Toppan Bunkyu Gothic";
+    opacity: .7;
+}
+
+body>main>section:nth-child(2)>article>p:nth-child(2){
+    position: relative;
+    margin: auto;
+    left: 0;
+    top: 45%;
+    font-size: 2vw;
+    font-family:"Toppan Bunkyu Gothic";
+    opacity: .7;
+}
+
+body>main>section:nth-child(2)>h4{
+    position: absolute;
+    top: 74%;
+    left: 5%;
+    font-size: 1.50vw;
 }
 
 
