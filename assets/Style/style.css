@@ -3,7 +3,7 @@ body{
     position: relative;
 }
 
-html{
+*{
     scroll-behavior: smooth;
 
 }
@@ -56,7 +56,7 @@ main>section:nth-child(1){
     height: 100vh;
     width: 100vw;
     background-size: 100vw 100vh;
-    background-color: #063939;
+    background-color:#323946;
     position: relative;
     bottom: 45%;
 
@@ -235,40 +235,11 @@ main>section:nth-child(2)>h1{
 
 
 
-/*.about-content  article p:nth-child(2){*/
-/*    font-size: 1.6rem;*/
-/*    margin: 1rem 0 1rem;*/
+.about-content  article p:nth-child(2){
+    font-size: 1.6rem;
+    margin: 1rem 0 1rem;
 
-/*}*/
-
-
-/*body>main>section:nth-child(2)>article{*/
-/*    width: 63vw;*/
-/*    height: 100vh;*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    right: 0;*/
-/*}*/
-
-/*body>main>section:nth-child(2)>article>p:nth-child(1){*/
-/*    position: relative;*/
-/*    margin: auto;*/
-/*    left: 0;*/
-/*    top: 42%;*/
-/*    font-size: 2vw;*/
-/*    font-family:"Toppan Bunkyu Gothic";*/
-/*    opacity: .7;*/
-/*}*/
-
-/*body>main>section:nth-child(2)>article>p:nth-child(2){*/
-/*    position: relative;*/
-/*    margin: auto;*/
-/*    left: 0;*/
-/*    top: 45%;*/
-/*    font-size: 2vw;*/
-/*    font-family:"Toppan Bunkyu Gothic";*/
-/*    opacity: .7;*/
-/*}*/
+}
 
 body>main>section:nth-child(2)>h4{
     position: absolute;
