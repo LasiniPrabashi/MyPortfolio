@@ -248,9 +248,140 @@ body>main>section:nth-child(2)>h4{
     font-size: 1.50vw;
 }
 
+/*====================Experience======================*/
+
+main>section:nth-child(3){
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    /*font-size: 0;*/
+    background-size: 100vw 100vh;
+    background-color: #1f242d;
+}
+
+section:nth-child(3)>h2{
+    position: absolute;
+    margin: auto;
+    left: 40%;
+    top: 10%;
+    right: 0;
+    font-size: 2.5rem;
+
+}
+
+.desing h1{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    right: 0;
+    margin: auto;
+    font-size: 2rem;
+
+}
+
+.desing div{
+    width: 20vw;
+    height: 40vh;
+    background-color: white;
+    box-shadow: #D0D0D0 0px 3px 12px;
+    border-radius: 2vh;
+    position: absolute;
+    margin: auto;
 
 
+}
 
+.desing div:hover{
+    /*box-shadow: #959393 0px 3px 12px;*/
+    box-shadow: 0 0 1rem #0ef;
+}
+
+
+.desing h4{
+    position: absolute;
+    right: 0;
+    left: 10%;
+    top: 4vh;
+    margin: auto;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #0A0A0A;
+}
+
+.desing p{
+    position: absolute;
+    left: 10%;
+    top: 20vh;
+    margin: auto;
+    font-size: 1.14rem;
+    font-weight: 700;
+    color: #0A0A0A;
+}
+
+.box1{
+    top: 30vh;
+    left: 10vw;
+}
+
+.box1 img{
+    width: 30%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 30%;;
+    top: 5px;
+    margin: auto;
+}
+
+.box2{
+    top: 30vh;
+    right: 0;
+    left: 0;
+}
+
+.box2 img{
+    width: 25%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 10vh;
+    margin: auto;
+}
+
+.box2 p{
+    position: absolute;
+    left: 10%;
+    top: 23vh;
+    margin: auto;
+    font-size: 1.14rem;
+    font-weight: 700;
+    color: #0A0A0A;
+}
+
+.box3{
+
+    top: 30vh;
+    right: 12vw;
+}
+
+.box3 img{
+    width: 20%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 10vh;
+    margin: auto;
+}
+
+.box3 p{
+    position: absolute;
+    left: 10%;
+    top: 23vh;
+    margin: auto;
+    font-size: 1.14rem;
+    font-weight: 700;
+    color: #0A0A0A;
+}
 
 
 
