@@ -160,7 +160,7 @@ main>section>section:nth-child(1)>h4{
 
 .social-media img:hover{
     background: #0ef;
-    color: #323946;
+    color:#323946;
     box-shadow: 0 0 1rem #0ef;
 }
 
@@ -251,7 +251,7 @@ body>main>section:nth-child(2)>h4{
 
 main>section:nth-child(3){
     position: relative;
-    height: 100vh;
+    height: 120vh;
     /*font-size: 0;*/
     display: flex;
     background-size: 100vw 100vh;
@@ -271,7 +271,7 @@ section:nth-child(3)>h2{
 .desing h1{
     position: absolute;
     top: 20%;
-    left: 40%;
+    left: 45%;
     right: 0;
     margin: auto;
     font-size: 2rem;
@@ -318,7 +318,7 @@ section:nth-child(3)>h2{
 }
 
 .box1{
-    top: 30vh;
+    top: 35vh;
     left: 10vw;
 }
 
@@ -333,7 +333,7 @@ section:nth-child(3)>h2{
 }
 
 .box2{
-    top: 30vh;
+    top: 35vh;
     right: 0;
     left: 0;
 }
@@ -359,7 +359,7 @@ section:nth-child(3)>h2{
 
 .box3{
 
-    top: 30vh;
+    top: 35vh;
     right: 12vw;
 }
 
@@ -382,16 +382,84 @@ section:nth-child(3)>h2{
     color: #0A0A0A;
 }
 
-.h1{
+.skill-h1{
     position: absolute;
-    top: 80%;
+    top: 70%;
     left: 40%;
     right: 0;
     margin: auto;
     font-size: 2rem;
+    z-index: 1;
 }
 
+section:nth-child(3)>section:nth-child(2)>img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80px;
+    top: 80%;
+    position: absolute;
+    margin: 2rem 2rem 2rem;
+    z-index: 1;
+}
 
+section:nth-child(3)>img:hover{
+    box-shadow: 0 0 1rem #0ef;
+}
 
+#javaLogo{
+    position: absolute;
+    left: 5%;
+    top: 80%;
+
+}
+
+#intellijLogo{
+    position: absolute;
+    top: 80%;
+    left: 12%;
+}
+
+#figmaLogo{
+    position:absolute;
+    top: 80%;
+    left: 19%;
+}
+
+#cssLogo{
+    position: absolute;
+    top: 80%;
+    left: 26%;
+}
+
+#htmlLogo{
+    position: absolute;
+    top: 80%;
+    left: 33%;
+}
+
+#githubLogo{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+}
+
+#mysqlLogo{
+    position: absolute;
+    top: 80%;
+    left: 47%;
+}
+
+#scenebuilderLogo{
+    position: absolute;
+    top: 80%;
+    left: 54%;
+}
+
+#vs-codeLogo{
+    position: absolute;
+    top: 80%;
+    left: 61%;
+}
 
 
