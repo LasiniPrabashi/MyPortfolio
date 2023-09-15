@@ -29,6 +29,7 @@ header{
     cursor: default;
     font-weight: 600;
     font-size: 19px;
+    text-decoration: none;
 }
 
 header>nav>ul{
@@ -54,7 +55,6 @@ header>nav>ul>li>a{
 }
 main>section:nth-child(1){
     height: 100vh;
-    width: 100vw;
     background-size: 100vw 100vh;
     background-color:#323946;
     position: relative;
@@ -186,11 +186,10 @@ main>section>section:nth-child(1)>h4{
 
 main>section:nth-child(2){
     position: relative;
-    width: 100vw;
     height: 100vh;
     /*font-size: 0;*/
     background-size: 100vw 100vh;
-    background-color: #0D5657;
+    background-color: rgba(13, 86, 87, 1);
 }
 
 main>section:nth-child(2)>h1{
@@ -252,9 +251,9 @@ body>main>section:nth-child(2)>h4{
 
 main>section:nth-child(3){
     position: relative;
-    width: 100vw;
     height: 100vh;
     /*font-size: 0;*/
+    display: flex;
     background-size: 100vw 100vh;
     background-color: #1f242d;
 }
@@ -324,7 +323,7 @@ section:nth-child(3)>h2{
 }
 
 .box1 img{
-    width: 30%;
+    width: 25%;
     position: absolute;
     right: 0;
     left: 0;
@@ -383,6 +382,14 @@ section:nth-child(3)>h2{
     color: #0A0A0A;
 }
 
+.h1{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    right: 0;
+    margin: auto;
+    font-size: 2rem;
+}
 
 
 
