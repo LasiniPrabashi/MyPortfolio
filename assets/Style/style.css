@@ -134,8 +134,7 @@ main>section>section:nth-child(1)>h4{
     position: absolute;
     top: 53%;
     left: 43%;
-    font-size:1.6rem;
-    font-family:"Tsukushi A Round Gothic";
+    font-size:1.2rem;
 }
 
 .social-media img{
@@ -147,7 +146,7 @@ main>section>section:nth-child(1)>h4{
      position: relative;
     /*margin: auto;*/
     left: 45%;
-    bottom: 130px;
+    bottom: 170px;
     height: 1.5rem;
     width: 1.5rem;
     font-size: 2rem;
@@ -251,7 +250,7 @@ body>main>section:nth-child(2)>h4{
 
 main>section:nth-child(3){
     position: relative;
-    height: 120vh;
+    height: 190vh;
     /*font-size: 0;*/
     display: flex;
     background-size: 100vw 100vh;
@@ -262,7 +261,7 @@ section:nth-child(3)>h2{
     position: absolute;
     margin: auto;
     left: 40%;
-    top: 10%;
+    top: 5%;
     right: 0;
     font-size: 2.5rem;
 
@@ -270,7 +269,7 @@ section:nth-child(3)>h2{
 
 .desing h1{
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 45%;
     right: 0;
     margin: auto;
@@ -318,7 +317,7 @@ section:nth-child(3)>h2{
 }
 
 .box1{
-    top: 35vh;
+    top: 30vh;
     left: 10vw;
 }
 
@@ -333,7 +332,7 @@ section:nth-child(3)>h2{
 }
 
 .box2{
-    top: 35vh;
+    top: 30vh;
     right: 0;
     left: 0;
 }
@@ -359,7 +358,7 @@ section:nth-child(3)>h2{
 
 .box3{
 
-    top: 35vh;
+    top: 30vh;
     right: 12vw;
 }
 
@@ -384,7 +383,7 @@ section:nth-child(3)>h2{
 
 .skill-h1{
     position: absolute;
-    top: 70%;
+    top: 43%;
     left: 40%;
     right: 0;
     margin: auto;
@@ -410,56 +409,143 @@ section:nth-child(3)>img:hover{
 #javaLogo{
     position: absolute;
     left: 5%;
-    top: 80%;
+    top: 50%;
 
 }
 
 #intellijLogo{
     position: absolute;
-    top: 80%;
+    top: 50%;
     left: 12%;
 }
 
 #figmaLogo{
     position:absolute;
-    top: 80%;
+    top: 50%;
     left: 19%;
 }
 
 #cssLogo{
     position: absolute;
-    top: 80%;
+    top: 50%;
     left: 26%;
 }
 
 #htmlLogo{
     position: absolute;
-    top: 80%;
+    top: 50%;
     left: 33%;
 }
 
 #githubLogo{
     position: absolute;
-    top: 80%;
+    top: 50%;
     left: 40%;
 }
 
 #mysqlLogo{
     position: absolute;
-    top: 80%;
+    top: 50%;
     left: 47%;
 }
 
 #scenebuilderLogo{
     position: absolute;
-    top: 80%;
+    top: 50%;
     left: 54%;
 }
 
 #vs-codeLogo{
     position: absolute;
-    top: 80%;
+    top: 50%;
     left: 61%;
 }
 
+#javaSLogo{
+    position: absolute;
+    top: 50%;
+    left: 68%;
+}
 
+#bootstraoLogo{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+}
+
+/*Education*/
+.educt h1{
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    right: 0;
+    margin: auto;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.educt img{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    margin: auto;
+}
+
+.educt div{
+    width: 30vw;
+    height: 13vh;
+    background-color: white;
+    box-shadow: #D0D0D0 0px 3px 12px;
+    border-radius: 2vh;
+    position: absolute;
+    margin: auto;
+}
+
+.educt div:hover{
+    box-shadow: 0 0 1rem #0ef;
+}
+
+.educt h4{
+    position: absolute;
+    right: 0;
+    left: 10%;
+    top: 2vh;
+    margin: auto;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #0A0A0A;
+}
+
+.educt p{
+    position: absolute;
+    left: 10%;
+    top: 6vh;
+    margin: auto;
+    font-size: 1.14rem;
+    font-weight: 700;
+    color: #0A0A0A;
+}
+
+.box4 {
+    top: 65%;
+    right: 30vw;
+}
+
+.box5{
+    top: 75%;
+    right: 25vw;
+}
+
+.box6{
+    top: 85%;
+    right: 20%;
+}
+
+/*====================work======================*/
+
+main>section:nth-child(3){
+    position: relative;
+    height: 100vh;
+    display: flex;
+    background-size: 100vw 100vh;
+    background-color: #1f242d;
