@@ -25,7 +25,7 @@ header{
 
 .logo{
     flex: 5.5rem;
-    color: black;
+    color: #0ef;
     cursor: default;
     font-weight: 600;
     font-size: 19px;
@@ -48,7 +48,7 @@ header>nav>ul>li{
 
 header>nav>ul>li>a{
    text-decoration: none;
-    color: black;
+    color: white;
     margin-left: 9px;
     font-weight: bold;
 
@@ -188,7 +188,7 @@ main>section:nth-child(2){
     height: 100vh;
     /*font-size: 0;*/
     background-size: 100vw 100vh;
-    background-color: rgba(13, 86, 87, 1);
+    background-color: #1f242d;
 }
 
 main>section:nth-child(2)>h1{
@@ -196,6 +196,7 @@ main>section:nth-child(2)>h1{
     margin: auto;
     left: 0;
     top: 5%;
+
 }
 
 .about {
@@ -224,6 +225,7 @@ main>section:nth-child(2)>h1{
 .about-content h1{
     text-align: left;
     line-height: 1.2;
+    color: white;
 }
 
 .about-content p:nth-child(1){
@@ -254,7 +256,7 @@ main>section:nth-child(3){
     /*font-size: 0;*/
     display: flex;
     background-size: 100vw 100vh;
-    background-color: #1f242d;
+    background-color: #323946;
 }
 
 section:nth-child(3)>h2{
@@ -274,6 +276,7 @@ section:nth-child(3)>h2{
     right: 0;
     margin: auto;
     font-size: 2rem;
+    color: black;
 
 }
 
@@ -543,9 +546,109 @@ section:nth-child(3)>img:hover{
 
 /*====================work======================*/
 
-main>section:nth-child(3){
+main>section:nth-child(4) {
     position: relative;
-    height: 100vh;
+    height: 120vh;
     display: flex;
     background-size: 100vw 100vh;
     background-color: #1f242d;
+
+}
+
+.projc h3{
+    position: absolute;
+    margin: auto;
+    left: 30%;
+    top: 10%;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.projc h1{
+    position: absolute;
+    margin: auto;
+    left: 35%;
+    top: 13%;
+    font-size: 2rem;
+}
+
+.projc div{
+    width: 15vw;
+    height: 30vh;
+    background-color: white;
+    box-shadow: #D0D0D0 0px 3px 12px;
+    border-radius: 2vh;
+    position: absolute;
+    margin: auto;
+}
+
+.projc div:hover{
+    box-shadow: 0 0 1rem #0ef;
+}
+
+.div1{
+    top: 25vh;
+    left: 5vw;
+}
+
+.div1 h3{
+    top: 23vh;
+    right: 0;
+    left: 8%;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.div1 img{
+    position: absolute;
+    top: 5vh;
+    right: 0;
+    left: 5%;
+}
+
+.div2{
+    top: 25vh;
+    left: 25vw;
+}
+
+.div2 h3{
+    top: 23vh;
+    right: 0;
+    left: 8%;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.div2 img{
+    position: absolute;
+    top: 5vh;
+    right: 0;
+    left: 5%;
+}
+
+.div3{
+    top: 25vh;
+    left: 45vw;
+}
+
+.div3 h3{
+    top: 23vh;
+    right: 0;
+    left: 8%;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.div3 img{
+    position: absolute;
+    top: 5vh;
+    right: 0;
+    left: 5%;
+}
+
+.ass h1{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+
