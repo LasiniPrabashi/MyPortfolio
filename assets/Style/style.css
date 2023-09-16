@@ -652,3 +652,92 @@ main>section:nth-child(4) {
     left: 35%;
 }
 
+
+/*====================Gallery======================*/
+
+main>section:nth-child(5) {
+    position: relative;
+    height: 140vh;
+    display: flex;
+    background-size: 100vw 100vh;
+    background-color: #323946;
+
+}
+
+main>section:nth-child(5)>h1{
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    font-size: 2.3rem;
+    color: white;
+}
+.gallery{
+    display: grid;
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 80vw;
+    height: 90vh;
+    top: 10vh;
+    bottom: 0;
+    margin: auto;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
+}
+
+.gallery>div{
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.68);
+    /*border-radius: 2vw;*/
+    border: 2px solid black;
+}
+
+.gallery>div:nth-child(1){
+    background: url("../../assets/image/WhatsApp Image .jpg");
+    background-size: cover;
+    grid-column: 1/2;
+    grid-row: 1/3;
+
+}
+
+.gallery>div:nth-child(2){
+    background: url("../../assets/image/WhatsApp Image 21.13.55.jpg");
+    background-size: cover;
+    grid-column:2/3;
+    grid-row: 1/3;
+
+}
+
+.gallery>div:nth-child(3){
+    background: url("../../assets/image/About me.jpg");
+    background-size: cover;
+    grid-column:3/4;
+    grid-row: 1/3;
+}
+
+.gallery>div:nth-child(4){
+    background: url("../../assets/image/My Photo.jpg");
+    background-size: cover;
+    grid-row: 1/4;
+    grid-column: 4/5;
+}
+
+.gallery>div:nth-child(5){
+    background: url("../../assets/image/Home img.jpg");
+    background-size: cover;
+}
+
+.gallery>div:nth-child(6){
+     background: url("../../assets/image/ijse img (2).jpg");
+    background-size: cover;
+}
+
+.gallery>div:nth-child(7){
+    background: url("../../assets/image/ijse img.jpg");
+    background-size: cover;
+}
+
+
+
+
+
+
