@@ -71,17 +71,18 @@ main>section:nth-child(1){
 }
 
 .img{
-  height: 350px;
+    height: 350px;
     width:350px;
-   border-radius: 30px;
+    position: relative;
+    left: 5%;
 }
 
 
 
 main>section>section:nth-child(1)>h4{
-      font-size: 20px;
-     margin-left: 20px;
-     display: inline-block;
+    font-size: 20px;
+    margin-left: 20px;
+    display: inline-block;
 }
 
 /*.home{*/
@@ -289,8 +290,9 @@ main>section:nth-child(2)>h1{
 body>main>section:nth-child(2)>h4{
     position: absolute;
     top: 74%;
-    left: 5%;
+    left: 8%;
     font-size: 1.50vw;
+    color: white;
 }
 
 /*====================Experience======================*/
