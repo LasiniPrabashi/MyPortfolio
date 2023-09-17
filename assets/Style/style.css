@@ -691,10 +691,42 @@ main>section:nth-child(4) {
     left: 5%;
 }
 
+.div4 {
+    top: 25vh;
+    left: 65vw;
+}
+
+.div4 h3{
+    top: 23vh;
+    right: 0;
+    left: 8%;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.div4 img{
+    position: absolute;
+    top: 5vh;
+    right: 0;
+    left: 5%;
+}
+
 .ass h1{
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 35%;
+}
+
+.btn1{
+    display: inline-block;
+    padding: 1rem 2.4rem;
+    text-decoration: none;
+    background: #323946;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem #00eeff;
+    position: absolute;
+    right: 15%;
+    top: 55%;
 }
 
 
