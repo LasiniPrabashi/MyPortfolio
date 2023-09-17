@@ -1,4 +1,7 @@
 
+
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Josefin+Sans:wght@400;500&display=swap');
+
 body{
     position: relative;
 }
@@ -777,6 +780,98 @@ main>section:nth-child(5)>h1{
     background: url("../../assets/image/ijse img.jpg");
     background-size: cover;
 }
+
+/*====================Contact me======================*/
+
+main>section:nth-child(6){
+    position: relative;
+    height: 120vh;
+    display: flex;
+    background-size: 100vw 100vh;
+    background-color: #1f242d;
+}
+
+main>section:nth-child(6)>h1{
+    position: absolute;
+    left: 40%;
+    top: 5%;
+    font-size: 2.3rem;
+    color: white;
+}
+
+main>section:nth-child(6)>h2{
+    position: absolute;
+    left: 35%;
+    top: 12%;
+    font-size: 2rem;
+    color: #00eeff;
+}
+
+.img1 img{
+    position: absolute;
+    left: 15%;
+    top: 25%;
+}
+
+.img1 a{
+    position: absolute;
+    left: 13%;
+    top: 35%;
+    text-decoration: none;
+    color: white;
+
+}
+
+.img2 img{
+    position: absolute;
+    left: 35%;
+    top: 25%;
+}
+
+.h1s{
+    position: absolute;
+    left: 33%;
+    top: 32%;
+    color: white;
+
+}
+
+.img3 img{
+    position: absolute;
+    left: 55%;
+    top: 25%;
+}
+
+.a1{
+    position: absolute;
+    left: 53%;
+    top: 35%;
+    text-decoration: none;
+    color: white;
+}
+
+form{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+
+form input, form textarea,form button{
+    width: 100%;
+    padding: 17px;
+    border: none;
+    outline: none;
+    background: #323946;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+    border-radius: 10px;
+}
+
+form button:hover{
+    box-shadow: 0 0 1rem #0ef;
+}
+
 
 /*====================footer======================*/
 
