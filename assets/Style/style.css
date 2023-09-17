@@ -245,22 +245,42 @@ main>section:nth-child(2)>h1{
 }
 
 .about-content h1{
+    position: absolute;
+    top: 20%;
+    left: 40%;
     text-align: left;
     line-height: 1.2;
     color: white;
 }
 
-.about-content p:nth-child(1){
-    font-size: 2rem;
+.p1{
+    font-size: 1.2rem;
+    color: white;
     margin: 2rem 0 2rem;
+    position: absolute;
+    top: 30%;
+    left: 40%;
 }
 
-
-
-.about-content  article p:nth-child(2){
-    font-size: 1.6rem;
+.p2{
+    font-size: 1.2rem;
     margin: 1rem 0 1rem;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
 
+.btn{
+    display: inline-block;
+    padding: 1rem 2.4rem;
+    text-decoration: none;
+    background: #323946;
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem #00eeff;
+    position: absolute;
+    left: 40%;
+    top: 60% ;
 }
 
 body>main>section:nth-child(2)>h4{
