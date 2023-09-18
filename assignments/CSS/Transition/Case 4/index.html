@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>case 4</title>
+
+  <style>
+
+    section{
+      width: 500px;
+      height: 500px;
+      border: 10px solid gray;
+      background-color: white;
+      border-radius: 100%;
+      border-top: 10px solid red;
+      position: absolute;
+      margin: auto;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+    }
+
+    section>div:first-child{
+      width: 2%;
+      height: 50%;
+      background-color: red;
+      position: absolute;
+      margin: auto;
+      top: 0;
+      bottom: 22vh;
+      left: 10vw;
+      right: 0;
+      transform: rotate(40deg);
+    }
+
+    section:hover{
+      transform: rotate(360deg);
+      transition: 3s all;
+    }
+  </style>
+</head>
+<body>
+
+<section>
+  <div>
+    <div></div>
+  </div>
+</section>
+</body>
+</html>
