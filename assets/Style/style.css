@@ -595,7 +595,7 @@ section:nth-child(3)>img:hover{
 
 main>section:nth-child(4) {
     position: relative;
-    height: 120vh;
+    height: 130vh;
     display: flex;
     background-size: 100vw 100vh;
     background-color: #1f242d;
@@ -715,8 +715,9 @@ main>section:nth-child(4) {
 
 .ass h1{
     position: absolute;
-    top: 60%;
+    top: 58%;
     left: 35%;
+    color: white;
 }
 
 .btn1{
@@ -729,6 +730,98 @@ main>section:nth-child(4) {
     position: absolute;
     right: 15%;
     top: 55%;
+}
+
+.ass div {
+    width: 10vw;
+    height: 20vh;
+    background-color: white;
+    box-shadow: #D0D0D0 0px 3px 12px;
+    border-radius: 2vh;
+    position: absolute;
+    margin: auto;
+}
+
+.assign{
+    top: 88vh;
+    left: 5vw;
+}
+
+.assign img{
+    height: 15vh;
+    width: 8vw;
+    position: absolute;
+    top: 3vh;
+    right: 0;
+    left: 5%;
+}
+
+.assign2{
+    top: 88vh;
+    left: 20vw;
+}
+
+.assign2 img{
+    height: 15vh;
+    width: 8vw;
+    position: absolute;
+    top: 3vh;
+    right: 0;
+    left: 5%;
+}
+
+.assign3{
+    top: 88vh;
+    left: 35vw;
+}
+
+.assign3 img{
+    height: 15vh;
+    width: 8vw;
+    position: absolute;
+    top: 3vh;
+    right: 0;
+    left: 5%;
+}
+
+.assign4{
+    top: 88vh;
+    left: 50vw;
+}
+
+.assign4 img{
+    height: 15vh;
+    width: 8vw;
+    position: absolute;
+    top: 3vh;
+    right: 0;
+    left: 5%;
+}
+
+.assign5{
+    top: 88vh;
+    left: 65vw;
+}
+
+.assign5 img{
+    height: 15vh;
+    width: 8vw;
+    position: absolute;
+    top: 3vh;
+    right: 0;
+    left: 5%;
+}
+
+.btn2{
+    display: inline-block;
+    padding: 1rem 2.4rem;
+    text-decoration: none;
+    background: #323946;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem #00eeff;
+    position: absolute;
+    right: 15%;
+    top: 90%;
 }
 
 
