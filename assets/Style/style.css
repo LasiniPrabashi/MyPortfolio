@@ -335,13 +335,14 @@ section:nth-child(3)>h2{
     border-radius: 2vh;
     position: absolute;
     margin: auto;
-
+    transition: .5s ease;
 
 }
 
 .desing div:hover{
     /*box-shadow: #959393 0px 3px 12px;*/
     box-shadow: 0 0 1rem #0ef;
+    transform: scale(1.02);
 }
 
 
@@ -369,6 +370,7 @@ section:nth-child(3)>h2{
 .box1{
     top: 30vh;
     left: 10vw;
+
 }
 
 .box1 img{
@@ -379,6 +381,8 @@ section:nth-child(3)>h2{
     bottom: 30%;;
     top: 5px;
     margin: auto;
+
+
 }
 
 .box2{
@@ -394,6 +398,7 @@ section:nth-child(3)>h2{
     left: 0;
     top: 10vh;
     margin: auto;
+
 }
 
 .box2 p{
@@ -450,77 +455,89 @@ section:nth-child(3)>section:nth-child(2)>img{
     position: absolute;
     margin: 2rem 2rem 2rem;
     z-index: 1;
+
 }
 
 section:nth-child(3)>img:hover{
     box-shadow: 0 0 1rem #0ef;
+    transform: scale(1.02);
 }
 
 #javaLogo{
     position: absolute;
     left: 5%;
     top: 50%;
-
+    transition: .5s ease;
 }
 
 #intellijLogo{
     position: absolute;
     top: 50%;
     left: 12%;
+    transition: .5s ease;
 }
 
 #figmaLogo{
     position:absolute;
     top: 50%;
     left: 19%;
+    transition: .5s ease;
 }
 
 #cssLogo{
     position: absolute;
     top: 50%;
     left: 26%;
+    transition: .5s ease;
 }
 
 #htmlLogo{
     position: absolute;
     top: 50%;
     left: 33%;
+    transition: .5s ease;
 }
 
 #githubLogo{
     position: absolute;
     top: 50%;
     left: 40%;
+    transition: .5s ease;
 }
 
 #mysqlLogo{
     position: absolute;
     top: 50%;
     left: 47%;
+    transition: .5s ease;
 }
 
 #scenebuilderLogo{
     position: absolute;
     top: 50%;
     left: 54%;
+    transition: .5s ease;
 }
 
 #vs-codeLogo{
     position: absolute;
     top: 50%;
     left: 61%;
+    transition: .5s ease;
 }
 
 #javaSLogo{
     position: absolute;
     top: 50%;
     left: 68%;
+    transition: .5s ease;
 }
 
 #bootstraoLogo{
     position: absolute;
     top: 50%;
     left: 75%;
+    transition: .5s ease;
 }
 
 /*Education*/
@@ -549,10 +566,12 @@ section:nth-child(3)>img:hover{
     border-radius: 2vh;
     position: absolute;
     margin: auto;
+    transition: .5s ease;
 }
 
 .educt div:hover{
     box-shadow: 0 0 1rem #0ef;
+    transform: scale(1.02);
 }
 
 .educt h4{
