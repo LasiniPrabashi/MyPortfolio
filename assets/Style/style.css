@@ -187,6 +187,7 @@ span{
     background: #0ef;
     color:#323946;
     box-shadow: 0 0 1rem #0ef;
+    transform: scale(1.02);
 }
 
 
@@ -883,7 +884,7 @@ main>section:nth-child(5)>h1{
 
 .gallery>div:hover{
     transform: scale(1.02);
-    box-shadow: 0 0 1rem #0ef;
+    /*box-shadow: 0 0 1rem #0ef;*/
 }
 
 .gallery>div:nth-child(1){
