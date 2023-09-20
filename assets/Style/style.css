@@ -445,6 +445,7 @@ section:nth-child(3)>h2{
     margin: auto;
     font-size: 2rem;
     z-index: 1;
+
 }
 
 section:nth-child(3)>section:nth-child(2)>img{
@@ -465,6 +466,8 @@ section:nth-child(3)>img:hover{
 }
 
 #javaLogo{
+    height: 80px;
+    width: 80px;
     position: absolute;
     left: 5%;
     top: 50%;
@@ -472,6 +475,8 @@ section:nth-child(3)>img:hover{
 }
 
 #intellijLogo{
+    height: 80px;
+    width: 80px;
     position: absolute;
     top: 50%;
     left: 12%;
@@ -479,6 +484,8 @@ section:nth-child(3)>img:hover{
 }
 
 #figmaLogo{
+    height: 80px;
+    width: 80px;
     position:absolute;
     top: 50%;
     left: 19%;
@@ -486,6 +493,8 @@ section:nth-child(3)>img:hover{
 }
 
 #cssLogo{
+    height: 80px;
+    width: 80px;
     position: absolute;
     top: 50%;
     left: 26%;
@@ -493,6 +502,8 @@ section:nth-child(3)>img:hover{
 }
 
 #htmlLogo{
+    height: 80px;
+    width: 80px;
     position: absolute;
     top: 50%;
     left: 33%;
@@ -500,6 +511,8 @@ section:nth-child(3)>img:hover{
 }
 
 #githubLogo{
+    height: 80px;
+    width: 80px;
     position: absolute;
     top: 50%;
     left: 40%;
@@ -507,6 +520,8 @@ section:nth-child(3)>img:hover{
 }
 
 #mysqlLogo{
+    height: 80px;
+    width: 80px;
     position: absolute;
     top: 50%;
     left: 47%;
@@ -514,6 +529,8 @@ section:nth-child(3)>img:hover{
 }
 
 #scenebuilderLogo{
+    height: 80px;
+    width: 80px;
     position: absolute;
     top: 50%;
     left: 54%;
@@ -521,6 +538,8 @@ section:nth-child(3)>img:hover{
 }
 
 #vs-codeLogo{
+    height: 80px;
+    width: 80px;
     position: absolute;
     top: 50%;
     left: 61%;
@@ -528,6 +547,8 @@ section:nth-child(3)>img:hover{
 }
 
 #javaSLogo{
+    height: 80px;
+    width: 80px;
     position: absolute;
     top: 50%;
     left: 68%;
@@ -535,6 +556,8 @@ section:nth-child(3)>img:hover{
 }
 
 #bootstraoLogo{
+    height: 80px;
+    width: 80px;
     position: absolute;
     top: 50%;
     left: 75%;
@@ -1088,6 +1111,137 @@ footer>section:nth-child(2){
 
 }
 
+/*media quary--------------------------------------------------------------------------------------*/
+
+@media all and (min-width: 1024px) and (max-width:1440px){
+
+    .img{
+        height: 300px;
+        width:300px;
+        left: 3%;
+
+    }
+
+    main>section>section:nth-child(1)>h4{
+        font-size: 15px;
+        margin-left: 70px;
+    }
+
+    .home-content h2{
+        top: 25%;
+    }
+
+    .home-content h3 {
+        top: 30%;
+
+    }
+
+    .home-content h1 {
+        top: 33%;
+    }
+
+    .home-content h5 {
+        top: 34%;
+    }
+
+    .home-content p {
+        top: 52%;
+        font-size: 1.1rem;
+
+    }
+
+
+    .social-media img {
+        bottom: 185px;
+
+    }
+
+    .about-img img {
+        width: 23vw;
+    }
+
+    .about-content h1 {
+        top: 140px;
+
+    }
+
+    .p1 {
+        top: 36%;
+
+    }
+
+    .p2 {
+        top: 47%;
+    }
+
+
+    .btn {
+        top: 70%;
+    }
+
+    body>main>section:nth-child(2)>h4 {
+        top: 70%;
+        left: 9%;
+        font-size: 2vw;
+
+    }
+
+    section:nth-child(3)>h2 {
+        left: 36%;
+        top: 5%;
+
+    }
+
+    .desing p {
+        top: 22vh;
+        font-size: 0.8rem;
+    }
+
+    .box2 img {
+        width: 19%;
+        top: 9vh;
+    }
+
+    .box2 p {
+        top: 24vh;
+        font-size: 0.8rem;
+
+    }
+
+    .box3 img {
+        width: 18%;
+    }
+
+    .skill-h1 {
+        top: 42%;
+    }
+
+    .desing h4 {
+        font-size: 1.3rem;
+    }
+
+    .box3 p {
+        top: 25vh;
+        font-size: 0.8rem;
+    }
+
+    #javaLogo {
+        height: 70px;
+        width: 70px;
+    }
+
+    #intellijLogo {
+        height: 70px;
+        width: 70px;
+        left: 13%;
+    }
+
+    #figmaLogo {
+        height: 70px;
+        width: 70px;
+        left: 22%;
+    }
+}
 
 
 
