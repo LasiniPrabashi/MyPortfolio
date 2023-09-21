@@ -656,102 +656,102 @@ main>section:nth-child(4) {
     top: 5%;
 }
 
-/*.projc{*/
-/*    display: grid;*/
-/*   grid-template-columns: repeat(3, 1fr);*/
-/*    align-items: center;*/
-/*    gap: 2.5rem;*/
+.projc{
+    display: grid;
+   grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
 
-/*}*/
+}
 
-/*.projc .projc-box{*/
-/*    width: 25vw;*/
-/*    height: 35vh;*/
-/*    position: relative;*/
-/*    border-radius: 2rem;*/
-/*    box-shadow: 0 0 1rem #1f242d;*/
-/*    overflow: hidden;*/
-/*    display: flex;*/
-/*    left: 5%;*/
-/*}*/
+.projc .projc-box{
+    width: 25vw;
+    height: 35vh;
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem #1f242d;
+    overflow: hidden;
+    display: flex;
+    left: 5%;
+}
 
-/*.projc-box img{*/
-/*   width: 100%;*/
-/*    transition: .5s ease;*/
-/*}*/
+.projc-box img{
+   width: 100%;
+    transition: .5s ease;
+}
 
-/*.projc-box:hover img{*/
-/*    transform: scale(1.1);*/
-/*}*/
+.projc-box:hover img{
+    transform: scale(1.1);
+}
 
-/*.projc-box .projc-layer{*/
-/*    position: absolute;*/
-/*    left: 0;*/
-/*    bottom: 0;*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    background: linear-gradient(rgba(0, 0, 0, .1), #0ef);*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;flex-direction: column;*/
-/*    text-align: center;*/
-/*    padding: 0 4rem;*/
-/*    transform: translateY(100%);*/
-/*    transition: .5s ease;*/
-/*}*/
+.projc-box .projc-layer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, .1), #0ef);
+    display: flex;
+    justify-content: center;
+    align-items: center;flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    transform: translateY(100%);
+    transition: .5s ease;
+}
 
-/*.projc-box:hover .projc-layer{*/
-/*    transform: translateY(0);*/
-/*}*/
+.projc-box:hover .projc-layer{
+    transform: translateY(0);
+}
 
-/*.projc-layer h3{*/
-/*    font-size: 2rem;*/
-/*    color: white;*/
-/*    position: absolute;*/
-/*    top: 20%;*/
-/*    left: 10%;*/
+.projc-layer h3{
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 10%;
 
-/*}*/
+}
 
-/*.projc-layer p{*/
-/*    position: absolute;*/
-/*    font-size: 1.2rem;*/
-/*    margin: 3rem 0 1rem;*/
-/*    color: white;*/
-/*    !*right: 25%;*!*/
-/*    top: 35%;*/
-/*    left: 10%;*/
-/*}*/
+.projc-layer p{
+    position: absolute;
+    font-size: 1.2rem;
+    margin: 3rem 0 1rem;
+    color: white;
+    /*right: 25%;*/
+    top: 35%;
+    left: 10%;
+}
 
-/*.projc-box {*/
-/*    position: relative;*/
-/*    right: 50%;*/
-/*}*/
+.projc-box {
+    position: relative;
+    right: 50%;
+}
 
-/*.projc-layer a{*/
-/*    display: inline-flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*    width: 2rem;*/
-/*    height: 2rem;*/
-/*    background: white;*/
-/*    border-radius: 50%;*/
-/*    position: absolute;*/
-/*    top: 80%;*/
-/*    left: 36%;*/
-/*}*/
+.projc-layer a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 80%;
+    left: 36%;
+}
 
-/*.projc-layer a i{*/
-/*    font-size: 1rem;*/
-/*    color: #1f242d;*/
+.projc-layer a i{
+    font-size: 1rem;
+    color: #1f242d;
 
 
-/*}*/
+}
 
-/*main>section:nth-child(4)>.projc .projc-box:nth-child(4){*/
-/*    position: relative;*/
-/*    bottom: 55%;*/
-/*}*/
+main>section:nth-child(4)>.projc .projc-box:nth-child(4){
+    position: relative;
+    bottom: 55%;
+}
 
 
 
