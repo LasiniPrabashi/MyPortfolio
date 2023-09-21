@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        main{
+
+            width: 500px;
+            height: 500px;
+            position: absolute;
+            margin: auto;
+            box-shadow: 1px 3px 5px 1px gray ;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-size: cover;
+            background-position: center;
+            overflow: hidden;
+
+        }
+
+        main>section{
+            width: 400%;
+            height:  100%;
+            /* border: 2px solid crimson; */
+            display: flex;
+
+            animation-name: slider-animation;
+            animation-duration: 10s;
+            animation-iteration-count: 2;
+            animation-timing-function: linear;
+            animation-direction: alternate;
+
+        }
+
+        main>section>div{
+            /* border: 2px solid yellow; */
+            height: 100%;
+            width: 100%;
+
+        }
+
+
+        main>section>div:nth-child(1){
+            background: url("assets/download.jpeg");
+            background-position: center;
+            background-size: cover;
+
+        }
+
+        main>section>div:nth-child(2){
+            background: url("assets/download (1).jpeg");
+            background-position: center;
+            background-size: cover;
+
+        }
+
+        main>section>div:nth-child(3){
+            background: url("assets/downlod 2.jpg");
+            background-position: center;
+            background-size: cover;
+
+        }
+
+        main>section>div:nth-child(4){
+            background: url("assets/birds.png");
+            background-position: center;
+            background-size: cover;
+
+        }
+
+        @keyframes slider-animation{
+
+            0%,15%{
+                transform: translateX(0);
+
+            }
+
+            25%,40%{
+                transform: translateX(-25%);
+
+            }
+
+            60%,80%{
+                transform: translateX(-50%);
+
+            }
+
+            90%,100%{
+                transform: translateX(-75%);
+
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+<main>
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+</main>
+</body>
+</html>

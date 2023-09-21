@@ -447,6 +447,7 @@ section:nth-child(3)>h2{
     margin: auto;
     font-size: 2rem;
     z-index: 1;
+    color: white;
 
 }
 
@@ -654,6 +655,7 @@ main>section:nth-child(4) {
     position: relative;
     left: 40%;
     top: 5%;
+    color: white;
 }
 
 .projc{
