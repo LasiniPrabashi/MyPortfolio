@@ -71,19 +71,20 @@ main>section:nth-child(1){
 }
 
 .img{
-    height: 350px;
-    width:350px;
+    height: 400px;
+    width:400px;
     position: relative;
     left: 5%;
+    top: 20%;
 }
 
 
 
-main>section>section:nth-child(1)>h4{
-    font-size: 20px;
-    margin-left: 20px;
-    display: inline-block;
-}
+/*main>section>section:nth-child(1)>h4{*/
+/*    font-size: 20px;*/
+/*    margin-left: 20px;*/
+/*    display: inline-block;*/
+/*}*/
 
 /*.home{*/
 /*    display: flex;*/
@@ -174,7 +175,7 @@ span{
      position: relative;
     /*margin: auto;*/
     left: 45%;
-    bottom: 170px;
+    bottom: 130px;
     height: 1.5rem;
     width: 1.5rem;
     font-size: 2rem;
@@ -875,7 +876,7 @@ main>section:nth-child(4)>.projc .projc-box:nth-child(4){
 
 main>section:nth-child(5) {
     position: relative;
-    height: 140vh;
+    height: 100vh;
     display: flex;
     background-size: 100vw 100vh;
     background-color: #323946;
@@ -894,8 +895,8 @@ main>section:nth-child(5)>h1{
     position: relative;
     left: 0;
     right: 0;
-    width: 80vw;
-    height: 90vh;
+    width: 60vw;
+    height: 60vh;
     top: 8vh;
     bottom: 0;
     margin: auto;
@@ -1119,194 +1120,194 @@ footer>section:nth-child(2){
 
 /*media quary--------------------------------------------------------------------------------------*/
 
-   @media all and (min-width: 1024px) and (max-width:1440px){
+   @media all and (min-width: 1024px) and (max-width:1440px) {
 
-    .img{
-        height: 300px;
-        width:300px;
-        left: 3%;
+       .img {
+           height: 300px;
+           width: 300px;
+           left: 3%;
 
-    }
+       }
 
-    main>section>section:nth-child(1)>h4{
-        font-size: 15px;
-        margin-left: 70px;
-    }
+       main > section > section:nth-child(1) > h4 {
+           font-size: 15px;
+           margin-left: 70px;
+       }
 
-    .home-content h2{
-        top: 25%;
-    }
+       .home-content h2 {
+           top: 25%;
+       }
 
-    .home-content h3 {
-        top: 30%;
+       .home-content h3 {
+           top: 30%;
 
-    }
+       }
 
-    .home-content h1 {
-        top: 33%;
-    }
+       .home-content h1 {
+           top: 33%;
+       }
 
-    .home-content h5 {
-        top: 34%;
-    }
+       .home-content h5 {
+           top: 34%;
+       }
 
-    .home-content p {
-        top: 52%;
-        font-size: 1.1rem;
+       .home-content p {
+           top: 52%;
+           font-size: 0.9rem;
 
-    }
-
-
-    .social-media img {
-        bottom: 145px;
-
-    }
-
-    .about-img img {
-        width: 23vw;
-    }
-
-    .about-content h1 {
-        top: 140px;
-
-    }
-
-    .p1 {
-        top: 36%;
-
-    }
-
-    .p2 {
-        top: 47%;
-    }
+       }
 
 
-    .btn {
-        top: 70%;
-    }
+       .social-media img {
+           bottom: 130px;
 
-    body>main>section:nth-child(2)>h4 {
-        top: 70%;
-        left: 9%;
-        font-size: 2vw;
+       }
 
-    }
+       .about-img img {
+           width: 23vw;
+       }
 
-    section:nth-child(3)>h2 {
-        left: 36%;
-        top: 5%;
+       .about-content h1 {
+           top: 140px;
 
-    }
+       }
 
-    .desing p {
-        top: 22vh;
-        font-size: 0.8rem;
-    }
+       .p1 {
+           top: 36%;
 
-    .box2 img {
-        width: 19%;
-        top: 9vh;
-    }
+       }
 
-    .box2 p {
-        top: 24vh;
-        font-size: 0.8rem;
+       .p2 {
+           top: 47%;
+       }
 
-    }
 
-    .box3 img {
-        width: 18%;
-    }
+       .btn {
+           top: 70%;
+       }
 
-    .skill-h1 {
-        top: 42%;
-    }
+       body > main > section:nth-child(2) > h4 {
+           top: 70%;
+           left: 9%;
+           font-size: 2vw;
 
-    .desing h4 {
-        font-size: 1.3rem;
-    }
+       }
 
-    .box3 p {
-        top: 25vh;
-        font-size: 0.8rem;
-    }
+       section:nth-child(3) > h2 {
+           left: 36%;
+           top: 5%;
 
-    #javaLogo {
-        height: 70px;
-        width: 70px;
-    }
+       }
 
-    #intellijLogo {
-        height: 70px;
-        width: 70px;
-        left: 13%;
-    }
+       .desing p {
+           top: 22vh;
+           font-size: 0.8rem;
+       }
 
-    #figmaLogo {
-        height: 70px;
-        width: 70px;
-        left: 22%;
-    }
+       .box2 img {
+           width: 19%;
+           top: 9vh;
+       }
 
-    #cssLogo {
-        height: 70px;
-        width: 70px;
-        left: 29%;
-    }
+       .box2 p {
+           top: 24vh;
+           font-size: 0.8rem;
 
-    #htmlLogo {
-        height: 70px;
-        width: 70px;
-        left: 37%;
-    }
+       }
 
-    #githubLogo {
-        height: 70px;
-        width: 70px;
-        left: 45%;
-    }
+       .box3 img {
+           width: 18%;
+       }
 
-    #mysqlLogo {
-        height: 70px;
-        width: 70px;
-        left: 53%;
-    }
+       .skill-h1 {
+           top: 42%;
+       }
 
-    #scenebuilderLogo {
-        height: 70px;
-        width: 70px;
-        left: 61%;
-    }
+       .desing h4 {
+           font-size: 1.3rem;
+       }
 
-    #vs-codeLogo {
-        height: 70px;
-        width: 70px;
-        left: 68%;
-    }
+       .box3 p {
+           top: 25vh;
+           font-size: 0.8rem;
+       }
 
-    #javaSLogo {
-        height: 70px;
-        width: 70px;
-        left: 76%;
-    }
+       #javaLogo {
+           height: 70px;
+           width: 70px;
+       }
 
-    #bootstraoLogo {
-        height: 70px;
-        width: 70px;
-        left: 84%;
-    }
+       #intellijLogo {
+           height: 70px;
+           width: 70px;
+           left: 13%;
+       }
 
-    .educt div {
-        width: 35vw;
-    }
+       #figmaLogo {
+           height: 70px;
+           width: 70px;
+           left: 22%;
+       }
 
-    .educt h4 {
-        font-size: 1rem;
-    }
+       #cssLogo {
+           height: 70px;
+           width: 70px;
+           left: 29%;
+       }
 
-    .educt p {
-        font-size: 1.1rem;
-    }
+       #htmlLogo {
+           height: 70px;
+           width: 70px;
+           left: 37%;
+       }
+
+       #githubLogo {
+           height: 70px;
+           width: 70px;
+           left: 45%;
+       }
+
+       #mysqlLogo {
+           height: 70px;
+           width: 70px;
+           left: 53%;
+       }
+
+       #scenebuilderLogo {
+           height: 70px;
+           width: 70px;
+           left: 61%;
+       }
+
+       #vs-codeLogo {
+           height: 70px;
+           width: 70px;
+           left: 68%;
+       }
+
+       #javaSLogo {
+           height: 70px;
+           width: 70px;
+           left: 76%;
+       }
+
+       #bootstraoLogo {
+           height: 70px;
+           width: 70px;
+           left: 84%;
+       }
+
+       .educt div {
+           width: 35vw;
+       }
+
+       .educt h4 {
+           font-size: 1rem;
+       }
+
+       .educt p {
+           font-size: 1.1rem;
+       }
 
        .educt img {
            width: 200px;
@@ -1336,8 +1337,8 @@ footer>section:nth-child(2){
        }
 
        .gallery {
-           width: 89vw;
-           height: 92vh;
+           width: 60vw;
+           height: 60vh;
        }
 
        form input, form textarea, form button {
@@ -1351,57 +1352,58 @@ footer>section:nth-child(2){
 
        }
 
-       footer>section:nth-child(1)>h3 {
+       footer > section:nth-child(1) > h3 {
            position: absolute;
            left: 45%;
            font-size: 1.6rem;
            color: white;
        }
+   }
 
-       @media all and (min-width: 768px) and (max-width:1024px){
-           .img {
-               height: 250px;
-               width: 250px;
+   /*    @media all and (min-width: 768px) and (max-width:1024px){*/
+   /*        .img {*/
+   /*            height: 250px;*/
+   /*            width: 250px;*/
 
-           }
+   /*        }*/
 
 
-           main>section>section:nth-child(1)>h4 {
-               left: 50%;
-               font-size: 1.6rem;
+   /*        main>section>section:nth-child(1)>h4 {*/
+   /*            left: 50%;*/
+   /*            font-size: 1.6rem;*/
 
-           }
+   /*        }*/
 
-           .home-content h2 {
-               left: 50%;
-               font-size: 1.7rem;
+   /*        .home-content h2 {*/
+   /*            left: 50%;*/
+   /*            font-size: 1.7rem;*/
 
-           }
+   /*        }*/
 
-           .home-content h3 {
-               left: 50%;
-               font-size: 2rem;
-           }
+   /*        .home-content h3 {*/
+   /*            left: 50%;*/
+   /*            font-size: 2rem;*/
+   /*        }*/
 
-           .home-content h1 {
-               top: 41%;
-               left: 55%;
-               font-size: 1.7em;
-           }
+   /*        .home-content h1 {*/
+   /*            top: 41%;*/
+   /*            left: 55%;*/
+   /*            font-size: 1.7em;*/
+   /*        }*/
 
-           .home-content h5 {
-               top: 42%;
-               left: 55%;
-               font-size: 1.6rem;
-           }
+   /*        .home-content h5 {*/
+   /*            top: 42%;*/
+   /*            left: 55%;*/
+   /*            font-size: 1.6rem;*/
+   /*        }*/
 
-           .home-content p {
-               top: 53%;
-               left: 55%;
-               font-size: 0.9rem;
-           }
-       }
-}
+   /*        .home-content p {*/
+   /*            top: 53%;*/
+   /*            left: 55%;*/
+   /*            font-size: 0.9rem;*/
+   /*        }*/
+   /*    }*/
+/*}*/
 
 
 
