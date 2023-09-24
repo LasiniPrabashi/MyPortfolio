@@ -66,16 +66,16 @@ main>section:nth-child(1){
 }
 
 .owner{
-    padding-top: 200px;
-    padding-left: 20px;
+    padding-top: 130px;
+    padding-left: 15px;
 }
 
 .img{
-    height: 400px;
-    width:400px;
+    height: 450px;
+    width:450px;
     position: relative;
     left: 5%;
-    top: 20%;
+    top: 10%;
 }
 
 
