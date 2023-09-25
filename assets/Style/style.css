@@ -757,7 +757,6 @@ main>section:nth-child(4) {
 
 main>section:nth-child(4)>.projc .projc-box:nth-child(4){
     position: relative;
-    bottom: 55%;
 }
 
 
@@ -1447,7 +1446,7 @@ footer>section:nth-child(2){
         font-size: 0.5rem;
         top: 6px;
     }
-}
+
 
 @media all and (min-width: 768px) and (max-width:1024px){
     .img {
@@ -1496,10 +1495,9 @@ footer>section:nth-child(2){
    @media all and (min-width: 1024px) and (max-width:1440px) {
 
        .img {
-           height: 350px;
-           width: 350px;
+           height: 400px;
+           width: 400px;
            left: 3%;
-
        }
 
        main > section > section:nth-child(1) > h4 {
@@ -1518,22 +1516,25 @@ footer>section:nth-child(2){
 
        .home-content h1 {
            top: 33%;
+           left: 53%;
+           font-size: 2em;
        }
 
        .home-content h5 {
            top: 34%;
+           left: 53%;
+           font-size: 2rem;
        }
 
        .home-content p {
-           top: 52%;
-           font-size: 0.9rem;
-
+           top: 47%;
+           font-size: 1rem;
+           left: 53%;
        }
 
-
        .social-media img {
-           bottom: 60px;
-
+           bottom: 160px;
+           left: 55%;
        }
 
        .about-img img {
@@ -1712,9 +1713,139 @@ footer>section:nth-child(2){
            left: 28%;
        }
 
+       .btn1 {
+           padding: 0.6rem 1.5rem;
+           top: 60%;
+       }
+
+       .ass h1 {
+           top: 64%;
+           left: 40%;
+       }
+
+       .ass div {
+           width: 13vw;
+           height: 25vh;
+       }
+
+       .assign img {
+           width: 10vw;
+           height: 20vh;
+       }
+
+       .assign2 img {
+           width: 10vw;
+           height: 20vh;
+       }
+
+       .assign {
+           left: 10vw;
+           top: 73%;
+       }
+
+       .assign2 {
+           left: 27vw;
+           top: 73%;
+       }
+
+       .assign3 img {
+           width: 10vw;
+           height: 20vh;
+       }
+
+       .assign3 {
+           left: 44vw;
+           top: 73%;
+       }
+
+       .assign4 img {
+           height: 20vh;
+           width: 10vw;
+       }
+
+       .assign4 {
+           top: 73%;
+           left: 60vw;
+       }
+
+       .assign5 img {
+           height: 20vh;
+           width: 10vw;
+       }
+
+       .assign5 {
+           top: 73%;
+           left: 76vw;
+       }
+
+       .btn2 {
+           top: 92%;
+       }
+
+       main>section:nth-child(4) {
+           height: 180vh;
+       }
+
+       main>section:nth-child(5) {
+           height: 100vh;
+       }
+
+       main>section:nth-child(5)>h1 {
+           left: 40%;
+       }
+
        .gallery {
            width: 60vw;
            height: 60vh;
+       }
+
+       main>section:nth-child(6)>h1 {
+           left: 40%;
+           top: 3%;
+           font-size: 2rem;
+       }
+
+       main>section:nth-child(6)>h2 {
+           left: 35%;
+           top: 9%;
+           font-size: 1.7rem;
+       }
+
+       .img1 img {
+           left: 15%;
+       }
+
+       .img1 a {
+           left: 12%;
+           top: 30%;
+       }
+
+       .img2 img {
+           left: 40%;
+           top: 20%;
+       }
+
+       .h1s {
+           top: 27%;
+           left: 37%;
+       }
+
+       .img3 img {
+           left: 60%;
+           top: 20%;
+       }
+
+       .a1 {
+           left: 55%;
+           top: 30%;
+       }
+
+       form {
+           top: 40%;
+       }
+
+       form input, form textarea, form button {
+           font-size: 0.9rem;
        }
 
        form input, form textarea, form button {
@@ -1724,8 +1855,7 @@ footer>section:nth-child(2){
        }
 
        .media-footer img {
-           left: 100%;
-
+           left: 140%;
        }
 
        footer > section:nth-child(1) > h3 {
@@ -1733,6 +1863,12 @@ footer>section:nth-child(2){
            left: 45%;
            font-size: 1.6rem;
            color: white;
+       }
+
+       .footer-p {
+           left: 35%;
+           font-size: 1.2rem;
+           top: 1px;
        }
    }
 
