@@ -1268,9 +1268,9 @@ footer>section:nth-child(2){
     }
 
     .skill-h1 {
-        top: 43%;
-        left: 20%;
-        font-size: 1.4rem;
+        top: 46%;
+        left: 15%;
+        font-size: 1.9rem;
     }
 
     .skil{
@@ -1279,6 +1279,102 @@ footer>section:nth-child(2){
         justify-content: space-around;
         border: 2px solid white;
         width: 245px;
+    }
+
+    #javaLogo {
+        top: 48%;
+        left: 3%;
+        position: absolute;
+        margin: auto;
+    }
+
+    #intellijLogo {
+        top: 47%;
+        left: 18%;
+    }
+
+    #figmaLogo {
+        top: 47%;
+        left: 44%;
+    }
+
+    #cssLogo {
+        top: 52%;
+        left: 1%;
+    }
+
+    #htmlLogo {
+        top: 52%;
+        left: 28%;
+    }
+
+    #githubLogo {
+        top: 52%;
+        left: 55%;
+    }
+
+    #mysqlLogo {
+        top: 57%;
+        left: 1%;
+    }
+
+    #scenebuilderLogo {
+        top: 57%;
+        left: 30%;
+    }
+
+    #vs-codeLogo {
+        top: 57%;
+        left: 58%;
+    }
+
+    #javaSLogo {
+        top: 61%;
+        left: 6%;
+    }
+
+    #bootstraoLogo {
+        top: 61%;
+        left: 36%;
+    }
+
+    main>section:nth-child(3) {
+        height: 360vh;
+    }
+
+    .educt h4 {
+        font-size: 0.9rem;
+    }
+
+    .educt h1 {
+        top: 68%;
+        left: 30%;
+    }
+
+    .educt div {
+        width: 78vw;
+    }
+
+    .box6 {
+        top: 93%;
+        right: 8%;
+    }
+
+    .box5 {
+        top: 87%;
+        right: 10vw;
+    }
+
+    .box4 {
+        top: 81%;
+        right: 10vw;
+    }
+
+    .educt img {
+        width: 150px;
+        height: 150px;
+        top: 72%;
+        left: 30%;
     }
 
     .projc .projc-box {
@@ -1594,9 +1690,9 @@ footer>section:nth-child(2){
     }
 
     .skill-h1 {
-        top: 43%;
-        left: 20%;
-        font-size: 1.4rem;
+        top: 46%;
+        left: 15%;
+        font-size: 1.9rem;
     }
 
     .skil{
@@ -1605,6 +1701,102 @@ footer>section:nth-child(2){
         justify-content: space-around;
         border: 2px solid white;
         width: 245px;
+    }
+
+    #javaLogo {
+        top: 48%;
+        left: 3%;
+        position: absolute;
+        margin: auto;
+    }
+
+    #intellijLogo {
+        top: 47%;
+        left: 18%;
+    }
+
+    #figmaLogo {
+        top: 47%;
+        left: 44%;
+    }
+
+    #cssLogo {
+        top: 52%;
+        left: 1%;
+    }
+
+    #htmlLogo {
+        top: 52%;
+        left: 28%;
+    }
+
+    #githubLogo {
+        top: 52%;
+        left: 55%;
+    }
+
+    #mysqlLogo {
+        top: 57%;
+        left: 1%;
+    }
+
+    #scenebuilderLogo {
+        top: 57%;
+        left: 30%;
+    }
+
+    #vs-codeLogo {
+        top: 57%;
+        left: 58%;
+    }
+
+    #javaSLogo {
+        top: 61%;
+        left: 6%;
+    }
+
+    #bootstraoLogo {
+        top: 61%;
+        left: 36%;
+    }
+
+    main>section:nth-child(3) {
+        height: 360vh;
+    }
+
+    .educt h4 {
+        font-size: 0.9rem;
+    }
+
+    .educt h1 {
+        top: 68%;
+        left: 30%;
+    }
+
+    .educt div {
+        width: 78vw;
+    }
+
+    .box6 {
+        top: 93%;
+        right: 8%;
+    }
+
+    .box5 {
+        top: 87%;
+        right: 10vw;
+    }
+
+    .box4 {
+        top: 81%;
+        right: 10vw;
+    }
+
+    .educt img {
+        width: 150px;
+        height: 150px;
+        top: 72%;
+        left: 30%;
     }
 
     .projc .projc-box {
