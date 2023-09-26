@@ -2428,6 +2428,301 @@ footer>section:nth-child(2){
 
 }
 
+@media all and (min-width: 520px) and (max-width: 768px){
+    header {
+        width: 100vw;
+        right: 17%;
+        left: 0;
+    }
+
+    .logo {
+        right: 85%;
+    }
+
+    .img {
+        height: 50vh;
+        top: 30px;
+    }
+
+    .home-content p {
+        top: 75vh;
+        left: 18%;
+    }
+
+    .home-content h5 {
+        top: 62vh;
+        left: 15%;
+        font-size: 1.9rem;
+    }
+
+    .home-content h1 {
+        top: 61%;
+        left: 15%;
+        font-size: 1.9rem;
+    }
+
+    .home-content h3 {
+        top: 59%;
+        left: 20%;
+        font-size: 1.9rem;
+    }
+
+    .home-content h2 {
+        left: 20%;
+        top: 56%;
+        font-size: 1.3rem;
+    }
+
+    .about-img img {
+        width: 35vw;
+    }
+
+    .about-content h1 {
+        top: 60vw;
+        left: 20%;
+    }
+
+    body>main>section:nth-child(2)>h4 {
+        top: 46%;
+    }
+
+    .btn {
+        top: 84vh;
+    }
+
+    .social-media img {
+        left: 30%;
+        top: 66vh;
+    }
+
+    .desing div {
+        width: 42vw;
+    }
+
+    .box1 {
+        left: 5vw;
+    }
+
+    .box2 {
+        top: 30vh;
+        left: 50%;
+    }
+
+    .box3 {
+        top: 75vh;
+        right: 25vw;
+    }
+
+    .desing h4 {
+        font-size: 1.4rem;
+    }
+
+    main>section:nth-child(3) {
+        height: 300vh;
+    }
+
+    .skill-h1 {
+        top: 41%;
+        left: 27%;
+        font-size: 1.7rem;
+    }
+
+    #javaLogo {
+        top: 43%;
+    }
+
+    #intellijLogo {
+        top: 43%;
+        left: 21%;
+    }
+
+    #figmaLogo {
+        top: 43%;
+        left: 36%;
+    }
+
+    #cssLogo {
+        top: 43%;
+        left: 50%;
+    }
+
+    #htmlLogo {
+        top: 43%;
+        left: 67%;
+    }
+
+    #githubLogo {
+        top: 49%;
+        left: 15%;
+    }
+
+    #mysqlLogo {
+        top: 49%;
+        left: 34%;
+    }
+
+    #scenebuilderLogo {
+        top: 49%;
+        left: 54%;
+    }
+
+    #vs-codeLogo {
+        top: 49%;
+        left: 69%;
+    }
+
+    #javaSLogo {
+        top: 54%;
+        left: 24%;
+    }
+
+    #bootstraoLogo {
+        top: 54%;
+        left: 45%;
+    }
+
+    .educt h1 {
+        top: 65%;
+        left: 35%;
+    }
+
+    .educt div {
+        width: 70vw;
+    }
+
+    .box6 {
+        top: 92%;
+        right: 10%;
+    }
+
+    .box5 {
+        top: 85%;
+        right: 15vw;
+    }
+
+    .box4 {
+        top: 78%;
+        right: 20vw;
+    }
+
+    .educt img {
+        width: 150px;
+        height: 150px;
+        top: 68%;
+        left: 30%;
+    }
+
+    .projc {
+        grid-template-columns: repeat(2, 1fr);
+        top: 30vh;
+        right: 15vh;
+    }
+
+    .projc .projc-box {
+        width: 40vw;
+        height: 25vh;
+        top: 10vh;
+        left: 5%;
+    }
+
+    .btn1 {
+        top: 52%;
+    }
+
+    main>section:nth-child(4) {
+        height: 200vh;
+    }
+
+    .ass h1 {
+        top: 58%;
+        left: 30%;
+    }
+
+    .ass div {
+        width: 24vw;
+        height: 22vh;
+    }
+
+    .assign {
+        top: 66%;
+    }
+
+    .assign {
+        left: 5vw;
+    }
+
+    .assign img {
+        width: 22vw;
+    }
+
+    .assign2 img {
+        width: 22vw;
+    }
+
+    .assign2 {
+        top: 66%;
+    }
+
+    .assign2 {
+        left: 35vw;
+    }
+
+    .assign3 img {
+        width: 22vw;
+    }
+
+    .assign3 {
+        top: 66%;
+        left: 40vw;
+    }
+
+    .assign3 {
+        left: 64vw;
+    }
+
+    .assign5 img {
+        height: 15vh;
+        width: 22vw;
+    }
+
+    .assign5 {
+        top: 80%;
+        left: 50vw;
+    }
+
+    .assign4 img {
+        height: 15vh;
+        width: 22vw;
+    }
+
+    .assign4 {
+        top: 80%;
+        left: 15vw;
+    }
+
+    .btn2 {
+        top: 94%;
+    }
+
+    .gallery {
+        width: 90vw;
+        height: 40vh;
+    }
+
+    form input, form textarea, form button {
+        font-size: 0.6rem;
+    }
+
+    .media-footer img {
+        left: 50%;
+        top: 40%;
+    }
+
+    .footer-p {
+        font-size: 0.8rem;
+    }
+}
+
 @media all and (min-width: 768px) and (max-width:1024px){
 
     .img {
