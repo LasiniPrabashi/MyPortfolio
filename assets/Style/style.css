@@ -3149,7 +3149,7 @@ footer>section:nth-child(2){
 
     .social-media img {
         left: 30%;
-        top: 0;
+        /*top: 0;*/
     }
 
     .about-content h1 {
@@ -3184,8 +3184,8 @@ footer>section:nth-child(2){
     }
 
     .desing p {
-        top: 25vh;
-        font-size: 0.7rem;
+        top: 22vh;
+        font-size: 1rem;
     }
 
     .desing h4 {
@@ -3549,6 +3549,11 @@ footer>section:nth-child(2){
            font-size: 0.8rem;
        }
 
+       .box3 p {
+           top: 25vh;
+           font-size: 1rem;
+       }
+
        .box2 img {
            width: 19%;
            top: 9vh;
@@ -3572,74 +3577,73 @@ footer>section:nth-child(2){
            font-size: 1.3rem;
        }
 
+       .desing p {
+           top: 22vh;
+           font-size: 01rem;
+       }
+
        .box3 p {
            top: 25vh;
            font-size: 0.8rem;
        }
 
        #javaLogo {
-           height: 70px;
-           width: 70px;
+           top: 46%;
        }
 
        #intellijLogo {
-           height: 70px;
-           width: 70px;
+           top: 47%;
            left: 13%;
        }
 
        #figmaLogo {
-           height: 70px;
-           width: 70px;
-           left: 22%;
+           top: 47%;
+           left: 21%;
        }
 
        #cssLogo {
-           height: 70px;
-           width: 70px;
-           left: 29%;
+           top: 47%;
+           left: 28%;
        }
 
        #htmlLogo {
-           height: 70px;
-           width: 70px;
+           top: 47%;
            left: 37%;
        }
 
        #githubLogo {
-           height: 70px;
-           width: 70px;
-           left: 45%;
+           top: 47%;
+           left: 46%;
        }
 
        #mysqlLogo {
-           height: 70px;
-           width: 70px;
-           left: 53%;
+           top: 47%;
+           left: 55%;
        }
 
        #scenebuilderLogo {
-           height: 70px;
-           width: 70px;
-           left: 61%;
+           top: 47%;
+           left: 64%;
        }
 
        #vs-codeLogo {
-           height: 70px;
-           width: 70px;
-           left: 68%;
+           top: 47%;
+           left: 72%;
        }
 
        #javaSLogo {
-           height: 70px;
-           width: 70px;
-           left: 76%;
+           top: 47%;
+           left: 52%;
+       }
+
+       #javaSLogo {
+           top: 47%;
+           left: 80%;
        }
 
        #bootstraoLogo {
-           height: 70px;
-           width: 70px;
-           left: 84%;
+           top: 47%;
+           left: 88%;
        }
 
        .educt div {
@@ -3657,6 +3661,21 @@ footer>section:nth-child(2){
        .educt img {
            width: 200px;
            height: 200px;
+       }
+
+       .box4 {
+           top: 68%;
+           right: 20vw;
+       }
+
+       .box5 {
+           top: 78%;
+           right: 15vw;
+       }
+
+       .box6 {
+           top: 88%;
+           right: 10%;
        }
 
        .projc {
@@ -3682,6 +3701,13 @@ footer>section:nth-child(2){
 
        .projc-layer a {
            left: 28%;
+       }
+
+       .projc .projc-box {
+           width: 25vw;
+           height: 35vh;
+           top: 5vh;
+           left: 5%;
        }
 
        .btn1 {
