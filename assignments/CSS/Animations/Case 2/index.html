@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Animation Case_2</title>
+  <style>
+    body{
+      background-color: #000000;
+    }
+    .div1{
+      background-color: pink;
+      width: 300px;
+      height: 300px;
+      border-radius: 100%;
+      position: absolute;
+      margin: auto;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      animation-name: anima;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+    .div2{
+      background-color: black;
+      width: 300px;
+      height: 300px;
+      border-radius: 100%;
+      position: absolute;
+      margin: auto;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 1;
+    }
+    @keyframes anima{
+      0%{
+        top: 40px;
+        right: 40px;
+        box-shadow: none;
+      }
+      50%{
+        box-shadow: 10px 10px 200px pink;
+      }
+      100%{
+        bottom: 40px;
+        left: 40px;
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="div1"></div>
+<div class="div2"></div>
+</body>
+</html>
