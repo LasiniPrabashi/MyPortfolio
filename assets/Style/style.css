@@ -1907,21 +1907,27 @@ footer>section:nth-child(2){
     }
 
     .desing div {
-        width: 75vw;
+        width: 65vw;
+    }
+
+    .box1 {
+        top: 25vh;
+        left: 15vw;
     }
 
     .box3 {
-        top: 120vh;
+        top: 115vh;
+        right: 15vw;
     }
 
     .box2 {
-        top: 75vh;
+        top: 70vh;
     }
 
     .skill-h1 {
-        top: 43%;
+        top: 47%;
         left: 20%;
-        font-size: 1.4rem;
+        font-size: 1.9rem;
     }
 
     .skil{
@@ -1930,6 +1936,102 @@ footer>section:nth-child(2){
         justify-content: space-around;
         border: 2px solid white;
         width: 245px;
+    }
+
+    #javaLogo {
+        top: 49%;
+        left: 3%;
+        position: absolute;
+        margin: auto;
+    }
+
+    #intellijLogo {
+        top: 48%;
+        left: 16%;
+    }
+
+    #figmaLogo {
+        top: 48%;
+        left: 37%;
+    }
+
+    #cssLogo {
+        top: 48%;
+        left: 57%;
+    }
+
+    #htmlLogo {
+        top: 53%;
+        left: 1%;
+    }
+
+    #githubLogo {
+        top: 53%;
+        left: 25%;
+    }
+
+    #mysqlLogo {
+        top: 53%;
+        left: 49%;
+    }
+
+    #scenebuilderLogo {
+        top: 57%;
+        left: 1%;
+    }
+
+    #vs-codeLogo {
+        top: 57%;
+        left: 25%;
+    }
+
+    #javaSLogo {
+        top: 57%;
+        left: 48%;
+    }
+
+    #bootstraoLogo {
+        top: 61%;
+        left: 29%;
+    }
+
+    .educt h4 {
+        font-size: 1rem;
+    }
+
+    .educt h1 {
+        top: 68%;
+        left: 30%;
+    }
+
+    .educt div {
+        width: 78vw;
+    }
+
+    .box6 {
+        top: 93%;
+        right: 8%;
+    }
+
+    .box5 {
+        top: 87%;
+        right: 10vw;
+    }
+
+    .box4 {
+        top: 81%;
+        right: 10vw;
+    }
+
+    .educt img {
+        width: 150px;
+        height: 150px;
+        top: 72%;
+        left: 30%;
+    }
+
+    main>section:nth-child(3) {
+        height: 350vh;
     }
 
     .projc .projc-box {
@@ -2249,9 +2351,9 @@ footer>section:nth-child(2){
     }
 
     .skill-h1 {
-        top: 43%;
+        top: 49%;
         left: 20%;
-        font-size: 1.4rem;
+        font-size: 1.9rem;
     }
 
     .skil{
@@ -2260,6 +2362,98 @@ footer>section:nth-child(2){
         justify-content: space-around;
         border: 2px solid white;
         width: 245px;
+    }
+
+    #javaLogo {
+        top: 53%;
+        left: 3%;
+        position: absolute;
+        margin: auto;
+    }
+
+    #intellijLogo {
+        top: 52%;
+        left: 13%;
+    }
+
+    #figmaLogo {
+        top: 52%;
+        left: 30%;
+    }
+
+    #cssLogo {
+        top: 52%;
+        left: 47%;
+    }
+
+    #htmlLogo {
+        top: 52%;
+        left: 67%;
+    }
+
+    #githubLogo {
+        top: 57%;
+        left: 5%;
+    }
+
+    #mysqlLogo {
+        top: 57%;
+        left: 28%;
+    }
+
+    #scenebuilderLogo {
+        top: 57%;
+        left: 50%;
+    }
+
+    #vs-codeLogo {
+        top: 57%;
+        left: 69%;
+    }
+
+    #javaSLogo {
+        top: 61%;
+        left: 24%;
+    }
+
+    #bootstraoLogo {
+        top: 61%;
+        left: 45%;
+    }
+
+    .educt h1 {
+        top: 68%;
+        left: 30%;
+    }
+
+    .educt div {
+        width: 78vw;
+    }
+
+    .box6 {
+        top: 93%;
+        right: 8%;
+    }
+
+    .box5 {
+        top: 87%;
+        right: 10vw;
+    }
+
+    .box4 {
+        top: 81%;
+        right: 10vw;
+    }
+
+    .educt img {
+        width: 150px;
+        height: 150px;
+        top: 72%;
+        left: 30%;
+    }
+
+    main>section:nth-child(3) {
+        height: 350vh;
     }
 
     .projc .projc-box {
@@ -2732,11 +2926,15 @@ footer>section:nth-child(2){
     }
 
     .home-content h2 {
-        left: 47%;
+        left: 50%;
+        top: 34%;
+        font-size: 1.5rem;
     }
 
     .home-content h3 {
-        left: 47%;
+        top: 40%;
+        left: 50%;
+        font-size: 1.9rem;
     }
 
     .home-content h1 {
@@ -2758,11 +2956,8 @@ footer>section:nth-child(2){
     }
 
     .social-media img {
-        margin: 0.9rem 0.9rem 0.9rem;
-        left: 50%;
-        height: 1rem;
-        width: 1rem;
-        bottom: 100px;
+        left: 30%;
+        top: 0;
     }
 
     .about-content h1 {
@@ -2785,6 +2980,10 @@ footer>section:nth-child(2){
         width: 30vw;
     }
 
+    .btn {
+        top: 60vh;
+    }
+
     body>main>section:nth-child(2)>h4 {
         top: 70%;
         left: 10%;
@@ -2805,13 +3004,20 @@ footer>section:nth-child(2){
         width: 25vw;
     }
 
+    .box2 {
+        top: 30vh;
+        left: 0%;
+    }
+
     .box1 {
         left: 5vw;
     }
 
     .box3 {
+        top: 30vh;
         right: 5vw;
     }
+
 
     .skill-h1 {
         top: 38%;
@@ -2893,15 +3099,18 @@ footer>section:nth-child(2){
     }
 
     .box4 {
+        top: 72%;
         right: 20vw;
     }
 
     .box5 {
+        top: 81%;
         right: 15vw;
     }
 
     .box6 {
-        right: 9%;
+        top: 90%;
+        right: 10%;
     }
 
     .projc {
@@ -2912,13 +3121,24 @@ footer>section:nth-child(2){
         right: 20%;
     }
 
+    .projc .projc-box {
+        width: 40vw;
+        height: 35vh;
+        top: 5vh;
+        left: 5%;
+    }
+
     .btn1 {
-        top: 56%;
+        top: 60%;
     }
 
     .ass h1 {
         top: 65%;
         left: 40%;
+    }
+
+    .btn2 {
+        top: 90%;
     }
 
     .ass div {
