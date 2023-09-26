@@ -679,7 +679,6 @@ main>section:nth-child(4) {
     box-shadow: 0 0 1rem #1f242d;
     overflow: hidden;
     display: flex;
-    left: 5%;
 }
 
 .projc-box img{
@@ -1449,46 +1448,330 @@ footer>section:nth-child(2){
 
 
 @media all and (min-width: 768px) and (max-width:1024px){
+
     .img {
-        height: 250px;
-        width: 250px;
-
-    }
-
-
-    main>section>section:nth-child(1)>h4 {
-        left: 50%;
-        font-size: 1.6rem;
-
+        height: 300px;
+        width: 300px;
+        left: 2%;
     }
 
     .home-content h2 {
-        left: 50%;
-        font-size: 1.7rem;
-
+        left: 47%;
     }
 
     .home-content h3 {
-        left: 50%;
-        font-size: 2rem;
+        left: 47%;
     }
 
     .home-content h1 {
-        top: 41%;
-        left: 55%;
-        font-size: 1.7em;
+        left: 51%;
+        font-size: 1.9rem;
+        top: 42%;
     }
 
     .home-content h5 {
+        left: 51%;
+        font-size: 2rem;
         top: 42%;
-        left: 55%;
-        font-size: 1.6rem;
     }
 
     .home-content p {
-        top: 53%;
+        top: 56%;
+        left: 51%;
+        font-size: 0.7rem;
+    }
+
+    .social-media img {
+        margin: 0.9rem 0.9rem 0.9rem;
+        left: 50%;
+        height: 1rem;
+        width: 1rem;
+        bottom: 50px;
+    }
+
+    .about-content h1 {
+        top: 10%;
+        left: 45%;
+        font-size: 2.3rem;
+    }
+
+    .p1 {
+        font-size: 1.1rem;
+        top: 23%;
+    }
+
+    .p2 {
+        font-size: 1.1rem;
+        top: 33%;
+    }
+
+    .about-img img {
+        width: 30vw;
+    }
+
+    body>main>section:nth-child(2)>h4 {
+        top: 70%;
+        left: 10%;
+        font-size: 1.2rem;
+
+    }
+
+    .desing p {
+        top: 25vh;
+        font-size: 0.7rem;
+    }
+
+    .desing h4 {
+        font-size: 1rem;
+    }
+
+    .desing div {
+        width: 25vw;
+    }
+
+    .box1 {
+        left: 5vw;
+    }
+
+    .box3 {
+        right: 5vw;
+    }
+
+    .skill-h1 {
+        top: 38%;
+        left: 30%;
+    }
+
+    #javaLogo {
+        top: 40%;
+    }
+
+    #intellijLogo {
+        top: 40%;
+        left: 16%;
+    }
+
+    #figmaLogo {
+        top: 40%;
+        left: 27%;
+    }
+
+    #cssLogo {
+        top: 40%;
+        left: 37%;
+    }
+
+    #htmlLogo {
+        top: 40%;
+        left: 48%;
+    }
+
+    #githubLogo {
+        top: 40%;
+        left: 60%;
+    }
+
+    #mysqlLogo {
+        top: 40%;
+        left: 73%;
+    }
+
+    #scenebuilderLogo {
+        top: 49%;
+        left: 25%;
+    }
+
+    #vs-codeLogo {
+        top: 49%;
+        left: 39%;
+    }
+
+    #javaSLogo {
+        top: 49%;
+        left: 52%;
+    }
+
+    #bootstraoLogo {
+        top: 49%;
+        left: 65%;
+    }
+
+    main>section:nth-child(3) {
+        height: 210vh;
+    }
+
+    .educt h1 {
+        left: 40%;
+        font-size: 2.4rem;
+    }
+
+    .educt img {
+        width: 150px;
+        height: 150px;
+        top: 65%;
+        left: 8%;
+    }
+
+    .educt div {
+        width: 45vw;
+    }
+
+    .box4 {
+        right: 20vw;
+    }
+
+    .box5 {
+        right: 15vw;
+    }
+
+    .box6 {
+        right: 9%;
+    }
+
+    .projc {
+        top: 35vh;
+    }
+
+    .projc-box {
+        right: 20%;
+    }
+
+    .btn1 {
+        top: 56%;
+    }
+
+    .ass h1 {
+        top: 65%;
+        left: 40%;
+    }
+
+    .ass div {
+        width: 13vw;
+        height: 25vh;
+    }
+
+    .assign img {
+        width: 10vw;
+        height: 20vh;
+    }
+
+    .assign2 img {
+        width: 10vw;
+        height: 20vh;
+    }
+
+    .assign {
+        left: 10vw;
+        top: 73%;
+    }
+
+    .assign2 {
+        left: 27vw;
+        top: 73%;
+    }
+
+    .assign3 img {
+        width: 10vw;
+        height: 20vh;
+    }
+
+    .assign3 {
+        left: 44vw;
+        top: 73%;
+    }
+
+    .assign4 img {
+        height: 20vh;
+        width: 10vw;
+    }
+
+    .assign4 {
+        top: 73%;
+        left: 60vw;
+    }
+
+    .assign5 img {
+        height: 20vh;
+        width: 10vw;
+    }
+
+    .assign5 {
+        top: 73%;
+        left: 76vw;
+    }
+    main>section:nth-child(4) {
+        height: 200vh;
+    }
+
+    main>section:nth-child(5) {
+        height: 100vh;
+    }
+
+    .gallery {
+        width: 90vw;
+        height: 60vh;
+    }
+
+    main>section:nth-child(6)>h1 {
+        left: 40%;
+        top: 3%;
+        font-size: 2rem;
+    }
+
+    main>section:nth-child(6)>h2 {
+        left: 35%;
+        top: 9%;
+        font-size: 1.7rem;
+    }
+
+    .img1 img {
+        left: 15%;
+    }
+
+    .img1 a {
+        left: 12%;
+        top: 30%;
+    }
+
+    .img2 img {
+        left: 40%;
+        top: 20%;
+    }
+
+    .h1s {
+        top: 27%;
+        left: 37%;
+    }
+
+    .img3 img {
+        left: 60%;
+        top: 20%;
+    }
+
+    .a1 {
         left: 55%;
-        font-size: 0.9rem;
+        top: 30%;
+    }
+
+    form {
+        top: 40%;
+    }
+
+    form input, form textarea, form button {
+        padding: 20px;
+        margin-bottom: 1rem;
+    }
+
+    main>section:nth-child(6) {
+        height: 110vh;
+    }
+
+    .media-footer img {
+        left: 90%;
+    }
+
+    .footer-p {
+        font-size: 0.8rem;
     }
 }
 
