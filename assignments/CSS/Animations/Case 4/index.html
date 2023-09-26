@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Case 3</title>
+
+  <style>
+    body {
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    section {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background: url("assest/image/sky.jpg") top;
+      position: fixed;
+
+    }
+
+    section>div:first-child{
+      width: 100%;
+      height: 300px;
+      display: flex;
+      position: absolute;
+      bottom: 300px;
+      animation-name: anima;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-direction: initial;
+      animation-timing-function: ease-out;
+    }
+
+    section>div:first-child>img{
+      width: 100%;
+      height: 300px;
+      flex-shrink: 0;
+
+    }
+
+    section>div:nth-child(2){
+      width: 100%;
+      height: 300px;
+      display: flex;
+      position: absolute;
+      bottom: 0;
+      animation-name: anima;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-direction: initial;
+      animation-timing-function: ease-out;
+    }
+
+    section>div:nth-child(2)>img{
+      width: 100%;
+      height: 300px;
+      flex-shrink: 0;
+
+    }
+
+    section>img:nth-child(3){
+      width: 32vw;
+      position: absolute;
+      bottom: 200px;
+      left: 34vw;
+    }
+
+    section>img:nth-child(4){
+      width: 6vw;
+      position: absolute;
+      bottom: 207px;
+      left: 36.7vw;
+      margin: auto;
+      animation-name: rotate;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-direction: initial;
+      animation-timing-function: ease-out;
+    }
+
+    section>img:nth-child(5){
+      width: 6vw;
+      position: absolute;
+      bottom: 207px;
+      left: 56.2vw;
+      margin: auto;
+      animation-name: rotate;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-direction: initial;
+      animation-timing-function: ease-out;
+    }
+
+    @keyframes anima {
+      0% {
+        right: 0;
+      }
+      100% {
+        right: 100vw;
+      }
+    }
+
+    @keyframes rotate {
+      0% {
+        transform: rotate(360deg);
+      }
+      100% {
+        transform: rotate(0deg);
+      }
+    }
+  </style>
+</head>
+<body>
+<section>
+  <div><img src="assest/image/city.png"><img src="assest/image/city.png"></div>
+  <div><img src="assest/image/road.jpg"><img src="assest/image/road.jpg"></div>
+  <img src="assest/image/car.png">
+  <img src="assest/image/wheel.png">
+  <img src="assest/image/wheel.png">
+</section>
+</body>
+</html>
