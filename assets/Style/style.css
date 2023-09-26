@@ -1447,11 +1447,663 @@ footer>section:nth-child(2){
     }
 
 
+
+@media all and (min-width: 325px) and (max-width:375px){
+    .logo {
+        font-size: 15px;
+        top: 10px;
+        position: absolute;
+        right: 300%;
+    }
+    header {
+        width: max-content;
+        /* right: 0; */
+        left: 50%;
+    }
+
+    header>nav>ul {
+        position: absolute;
+        top: 1px;
+        left: 20px;
+    }
+
+    header>nav>ul {
+        position: absolute;
+        top: 5px;
+        left: 13vw;
+    }
+
+    header>nav>ul>li {
+        font-size: 11px;
+    }
+
+    .img {
+        height: 40vh;
+        width: 70vw;
+        position: absolute;
+        left: 3%;
+        top: 35px;
+    }
+
+    .home-content p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 68vh;
+        left: 30%;
+        font-size: 13px;
+    }
+
+    .home-content h5 {
+        top: 58vh;
+        left: 20%;
+        font-size: 1.4rem;
+        width: 70vw;
+    }
+
+    .home-content h1 {
+        top: 56%;
+        left: 20%;
+        font-size: 1.4rem;
+        width: 70vw;
+    }
+
+    .home-content h3 {
+        top: 53%;
+        left: 20%;
+        font-size: 1.5rem;
+    }
+
+    .home-content h2 {
+        left: 20%;
+        top: 48%;
+        font-size: 1.2rem;
+    }
+
+    .social-media img {
+        margin: 0.1rem 0.1rem 0.1rem;
+        left: 25%;
+        height: 0.7rem;
+        width: 0.7rem;
+        font-size: 2rem;
+        top: 63vh;
+    }
+
+    .p2 {
+        font-size: 0.8rem;
+        top: 58vh;
+        left: 20%;
+    }
+
+    .btn {
+        padding: 0.7rem 1.2rem;
+        left: 20%;
+        top: 84vh;
+    }
+
+    .p1 {
+        font-size: 0.8rem;
+        top: 50vh;
+        left: 20%;
+    }
+
+    .about-content h1 {
+        top: 75vw;
+        left: 20%;
+        line-height: 1.4;
+    }
+
+    .about-img img {
+        width: 45vw;
+        top: 8%;
+    }
+
+    body>main>section:nth-child(2)>h4 {
+        top: 38%;
+        font-size: 1rem;
+    }
+
+    section:nth-child(3)>h2 {
+        left: 30%;
+        font-size: 1.7rem;
+        top: 2%;
+    }
+
+    .desing h1 {
+        top: 4%;
+    }
+
+    .desing p {
+        font-size: 1rem;
+    }
+    main>section:nth-child(3) {
+        height: 400vh;
+    }
+
+    .desing div {
+        width: 75vw;
+    }
+
+    .box3 {
+        top: 120vh;
+    }
+
+    .box2 {
+        top: 75vh;
+    }
+
+    .skill-h1 {
+        top: 43%;
+        left: 20%;
+        font-size: 1.4rem;
+    }
+
+    .skil{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border: 2px solid white;
+        width: 245px;
+    }
+
+    .projc .projc-box {
+        width: 68vw;
+        height: 35vh;
+        top: 10vh;
+        left: 5%;
+    }
+
+    .projc {
+        grid-template-columns: repeat(1, 1fr);
+        top: 30vh;
+        right: 15vh;
+    }
+
+    main>section:nth-child(4) {
+        height: 300vh;
+    }
+
+    .btn1 {
+        padding: 0.6rem 1.5rem;
+        top: 66%;
+    }
+
+    .ass h1 {
+        top: 68%;
+        left: 30%;
+    }
+
+    .ass div {
+        width: 26vw;
+        height: 20vh;
+    }
+
+    .assign5 {
+        top: 81%;
+        left: 50vw;
+    }
+
+    .assign5 img {
+        height: 15vh;
+        width: 25vw;
+    }
+
+    .assign4 img {
+        height: 15vh;
+        width: 25vw;
+    }
+
+    .assign4 {
+        top: 81%;
+        left: 15vw;
+    }
+
+    .assign3 {
+        left: 62vw;
+    }
+
+    .assign2 img {
+        width: 25vw;
+    }
+
+    .assign3 img {
+        width: 25vw;
+    }
+
+    .assign2 {
+        left: 30vw;
+    }
+
+    .assign {
+        left: 2vw;
+    }
+
+    .assign img {
+        width: 25vw;
+    }
+
+    .btn2 {
+        padding: 0.7rem 1.5rem;
+    }
+
+    .gallery {
+        width: 90vw;
+        height: 30vh;
+    }
+
+    main>section:nth-child(5) {
+        height: 70vh;
+    }
+
+    main>section:nth-child(5)>h1 {
+        left: 33%;
+        top: 15%;
+        font-size: 2rem;
+    }
+
+    main>section:nth-child(6)>h1 {
+        left: 30%;
+        top: 3%;
+        font-size: 1.7rem;
+    }
+
+    main>section:nth-child(6)>h2 {
+        left: 20%;
+        top: 9%;
+        font-size: 1.2rem;
+    }
+
+    .img1 img {
+        left: 10%;
+        top: 20%;
+    }
+
+    .img1 a {
+        left: 30%;
+        top: 22%;
+    }
+
+    .img2 img {
+        left: 10%;
+        top: 30%;
+    }
+
+    .h1s {
+        top: 29%;
+    }
+
+    form input, form textarea, form button {
+        font-size: 0.5rem;
+    }
+
+    form {
+        top: 50%;
+    }
+
+    .img3 img {
+        left: 8%;
+        top: 39%;
+    }
+
+    .a1 {
+        left: 31%;
+        top: 42%;
+    }
+
+    footer>section:nth-child(1)>h3 {
+        top: 1%;
+        left: 40%;
+    }
+
+    .media-footer img {
+        margin: 0.5rem 0.5rem 0.5rem;
+        position: relative;
+        left: 10%;
+        top: 40%;
+        height: 1rem;
+        width: 1rem;
+    }
+
+    .footer-p {
+        left: 30%;
+        font-size: 0.5rem;
+        top: 6px;
+    }
+
+}
+
+@media all and (min-width: 375px) and (max-width: 425px){
+    .logo {
+        font-size: 15px;
+        top: 10px;
+        position: absolute;
+        right: 300%;
+    }
+    header {
+        width: max-content;
+        /* right: 0; */
+        left: 50%;
+    }
+
+    header>nav>ul {
+        position: absolute;
+        top: 1px;
+        left: 20px;
+    }
+
+    header>nav>ul {
+        position: absolute;
+        top: 5px;
+        left: 13vw;
+    }
+
+    header>nav>ul>li {
+        font-size: 11px;
+    }
+
+    .img {
+        height: 40vh;
+        width: 70vw;
+        position: absolute;
+        left: 3%;
+        top: 35px;
+    }
+
+    .home-content p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 68vh;
+        left: 30%;
+        font-size: 13px;
+    }
+
+    .home-content h5 {
+        top: 58vh;
+        left: 20%;
+        font-size: 1.4rem;
+        width: 70vw;
+    }
+
+    .home-content h1 {
+        top: 56%;
+        left: 20%;
+        font-size: 1.4rem;
+        width: 70vw;
+    }
+
+    .home-content h3 {
+        top: 53%;
+        left: 20%;
+        font-size: 1.5rem;
+    }
+
+    .home-content h2 {
+        left: 20%;
+        top: 48%;
+        font-size: 1.2rem;
+    }
+
+    .social-media img {
+        margin: 0.1rem 0.1rem 0.1rem;
+        left: 25%;
+        height: 0.7rem;
+        width: 0.7rem;
+        font-size: 2rem;
+        top: 63vh;
+    }
+
+    .p2 {
+        font-size: 0.8rem;
+        top: 64vh;
+        left: 20%;
+    }
+
+    .btn {
+        padding: 0.7rem 1.2rem;
+        left: 20%;
+        top: 88vh;
+    }
+
+    .p1 {
+        font-size: 0.8rem;
+        top: 56vh;
+        left: 20%;
+    }
+
+    .about-content h1 {
+        top: 75vw;
+        left: 20%;
+        line-height: 1.4;
+    }
+
+    .about-img img {
+        width: 45vw;
+        top: 8%;
+    }
+
+    body>main>section:nth-child(2)>h4 {
+        top: 38%;
+        font-size: 1rem;
+    }
+
+    section:nth-child(3)>h2 {
+        left: 30%;
+        font-size: 1.7rem;
+        top: 2%;
+    }
+
+    .desing h1 {
+        top: 4%;
+    }
+
+    .desing p {
+        font-size: 1rem;
+    }
+    main>section:nth-child(3) {
+        height: 400vh;
+    }
+
+    .desing div {
+        width: 75vw;
+    }
+
+    .box3 {
+        top: 120vh;
+    }
+
+    .box2 {
+        top: 75vh;
+    }
+
+    .skill-h1 {
+        top: 43%;
+        left: 20%;
+        font-size: 1.4rem;
+    }
+
+    .skil{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border: 2px solid white;
+        width: 245px;
+    }
+
+    .projc .projc-box {
+        width: 68vw;
+        height: 35vh;
+        top: 10vh;
+        left: 5%;
+    }
+
+    .projc {
+        grid-template-columns: repeat(1, 1fr);
+        top: 30vh;
+        right: 15vh;
+    }
+
+    main>section:nth-child(4) {
+        height: 300vh;
+    }
+
+    .btn1 {
+        padding: 0.6rem 1.5rem;
+        top: 66%;
+    }
+
+    .ass h1 {
+        top: 68%;
+        left: 30%;
+    }
+
+    .ass div {
+        width: 26vw;
+        height: 20vh;
+    }
+
+    .assign5 {
+        top: 81%;
+        left: 50vw;
+    }
+
+    .assign5 img {
+        height: 15vh;
+        width: 25vw;
+    }
+
+    .assign4 img {
+        height: 15vh;
+        width: 25vw;
+    }
+
+    .assign4 {
+        top: 81%;
+        left: 15vw;
+    }
+
+    .assign3 {
+        left: 62vw;
+    }
+
+    .assign2 img {
+        width: 25vw;
+    }
+
+    .assign3 img {
+        width: 25vw;
+    }
+
+    .assign2 {
+        left: 30vw;
+    }
+
+    .assign {
+        left: 2vw;
+    }
+
+    .assign img {
+        width: 25vw;
+    }
+
+    .btn2 {
+        padding: 0.7rem 1.5rem;
+    }
+
+    .gallery {
+        width: 90vw;
+        height: 30vh;
+    }
+
+    main>section:nth-child(5) {
+        height: 70vh;
+    }
+
+    main>section:nth-child(5)>h1 {
+        left: 33%;
+        top: 15%;
+        font-size: 2rem;
+    }
+
+    main>section:nth-child(6)>h1 {
+        left: 30%;
+        top: 3%;
+        font-size: 1.7rem;
+    }
+
+    main>section:nth-child(6)>h2 {
+        left: 20%;
+        top: 9%;
+        font-size: 1.2rem;
+    }
+
+    .img1 img {
+        left: 10%;
+        top: 20%;
+    }
+
+    .img1 a {
+        left: 30%;
+        top: 22%;
+    }
+
+    .img2 img {
+        left: 10%;
+        top: 30%;
+    }
+
+    .h1s {
+        top: 29%;
+    }
+
+    form input, form textarea, form button {
+        font-size: 0.5rem;
+    }
+
+    form {
+        top: 50%;
+    }
+
+    .img3 img {
+        left: 8%;
+        top: 39%;
+    }
+
+    .a1 {
+        left: 31%;
+        top: 42%;
+    }
+
+    footer>section:nth-child(1)>h3 {
+        top: 1%;
+        left: 40%;
+    }
+
+    .media-footer img {
+        margin: 0.5rem 0.5rem 0.5rem;
+        position: relative;
+        left: 10%;
+        top: 40%;
+        height: 1rem;
+        width: 1rem;
+    }
+
+    .footer-p {
+        left: 30%;
+        font-size: 0.5rem;
+        top: 6px;
+    }
+
+}
+
+
 @media all and (min-width: 768px) and (max-width:1024px){
 
     .img {
-        height: 300px;
-        width: 300px;
+        height: 350px;
+        width: 350px;
         left: 2%;
     }
 
@@ -1486,7 +2138,7 @@ footer>section:nth-child(2){
         left: 50%;
         height: 1rem;
         width: 1rem;
-        bottom: 50px;
+        bottom: 100px;
     }
 
     .about-content h1 {
