@@ -1810,6 +1810,37 @@ footer>section:nth-child(2){
         right: 15vh;
     }
 
+    .projc-layer h3 {
+        font-size: 1.4rem;
+        color: white;
+        position: absolute;
+        top: 20%;
+        left: 10%;
+    }
+
+    .projc-layer p {
+        position: absolute;
+        font-size: 0.8rem;
+        margin: 3rem 0 1rem;
+        color: white;
+        /* right: 25%; */
+        top: 30%;
+        left: 4%;
+    }
+
+    .projc-layer a {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 2rem;
+        height: 2rem;
+        background: white;
+        border-radius: 50%;
+        position: absolute;
+        top: 79%;
+        left: 28%;
+    }
+
     main>section:nth-child(4) {
         height: 300vh;
     }
@@ -1862,7 +1893,7 @@ footer>section:nth-child(2){
     }
 
     .assign2 {
-        left: 30vw;
+        left: 32vw;
     }
 
     .assign {
@@ -2237,6 +2268,24 @@ footer>section:nth-child(2){
         right: 15vh;
     }
 
+    .projc-layer h3 {
+        font-size: 1.4rem;
+        color: white;
+        position: absolute;
+        top: 20%;
+        left: 6%;
+    }
+
+    .projc-layer p {
+        position: absolute;
+        font-size: 0.9rem;
+        margin: 3rem 0 1rem;
+        color: white;
+        /* right: 25%; */
+        top: 30%;
+        left: 4%;
+    }
+
     main>section:nth-child(4) {
         height: 300vh;
     }
@@ -2289,7 +2338,7 @@ footer>section:nth-child(2){
     }
 
     .assign2 {
-        left: 30vw;
+        left: 32vw;
     }
 
     .assign {
@@ -2659,6 +2708,37 @@ footer>section:nth-child(2){
         right: 15vh;
     }
 
+    .projc-layer h3 {
+        font-size: 1.5rem;
+        color: white;
+        position: absolute;
+        top: 15%;
+        left: 10%;
+    }
+
+    .projc-layer p {
+        position: absolute;
+        font-size: 1rem;
+        margin: 3rem 0 1rem;
+        color: white;
+        /* right: 25%; */
+        top: 27%;
+        left: 6%;
+    }
+
+    .projc-layer a {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 2rem;
+        height: 2rem;
+        background: white;
+        border-radius: 50%;
+        position: absolute;
+        top: 80%;
+        left: 31%;
+    }
+
     main>section:nth-child(4) {
         height: 300vh;
     }
@@ -2711,7 +2791,7 @@ footer>section:nth-child(2){
     }
 
     .assign2 {
-        left: 30vw;
+        left: 32vw;
     }
 
     .assign {
