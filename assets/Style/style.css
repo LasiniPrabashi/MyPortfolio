@@ -71,8 +71,8 @@ main>section:nth-child(1){
 }
 
 .img{
-    height: 450px;
-    width:450px;
+    height: 500px;
+    width:500px;
     position: relative;
     left: 5%;
     top: 10%;
@@ -175,7 +175,7 @@ span{
      position: relative;
     /*margin: auto;*/
     left: 45%;
-    bottom: 130px;
+    bottom: 150px;
     height: 1.5rem;
     width: 1.5rem;
     font-size: 2rem;
