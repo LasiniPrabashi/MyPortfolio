@@ -3144,10 +3144,10 @@ footer>section:nth-child(2){
         left: 51%;
         font-size: 0.7rem;
     }
-
     .social-media img {
-        left: 30%;
-        /*top: 0;*/
+        bottom: 95px;
+        margin: 0.5rem 0.5rem 0.5rem;
+        left: 50%;
     }
 
     .about-content h1 {
@@ -3182,8 +3182,8 @@ footer>section:nth-child(2){
     }
 
     .desing p {
-        top: 22vh;
-        font-size: 1rem;
+        top: 24vh;
+        font-size: 0.9rem;
     }
 
     .desing h4 {
@@ -3191,7 +3191,7 @@ footer>section:nth-child(2){
     }
 
     .desing div {
-        width: 25vw;
+        width: 27vw;
     }
 
     .box2 {
@@ -3210,61 +3210,61 @@ footer>section:nth-child(2){
 
 
     .skill-h1 {
-        top: 38%;
+        top: 40%;
         left: 30%;
     }
 
     #javaLogo {
-        top: 40%;
+        top: 46%;
     }
 
     #intellijLogo {
-        top: 40%;
+        top: 46%;
         left: 16%;
     }
 
     #figmaLogo {
-        top: 40%;
+        top: 46%;
         left: 27%;
     }
 
     #cssLogo {
-        top: 40%;
+        top: 46%;
         left: 37%;
     }
 
     #htmlLogo {
-        top: 40%;
+        top: 46%;
         left: 48%;
     }
 
     #githubLogo {
-        top: 40%;
+        top: 46%;
         left: 60%;
     }
 
     #mysqlLogo {
-        top: 40%;
+        top: 46%;
         left: 73%;
     }
 
     #scenebuilderLogo {
-        top: 49%;
+        top: 55%;
         left: 25%;
     }
 
     #vs-codeLogo {
-        top: 49%;
+        top: 55%;
         left: 39%;
     }
 
     #javaSLogo {
-        top: 49%;
+        top: 55%;
         left: 52%;
     }
 
     #bootstraoLogo {
-        top: 49%;
+        top: 55%;
         left: 65%;
     }
 
@@ -3304,7 +3304,7 @@ footer>section:nth-child(2){
     }
 
     .projc {
-        top: 35vh;
+        top: 25vh;
     }
 
     .projc-box {
@@ -3316,6 +3316,37 @@ footer>section:nth-child(2){
         height: 35vh;
         top: 5vh;
         left: 5%;
+    }
+
+    .projc-layer h3 {
+        font-size: 1.8rem;
+        color: white;
+        position: absolute;
+        top: 10%;
+        left: 5%;
+    }
+
+    .projc-layer p {
+        position: absolute;
+        font-size: 1rem;
+        margin: 3rem 0 1rem;
+        color: white;
+        /* right: 25%; */
+        top: 28%;
+        left: 10%;
+    }
+
+    .projc-layer a {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 2rem;
+        height: 2rem;
+        background: white;
+        border-radius: 50%;
+        position: absolute;
+        top: 80%;
+        left: 32%;
     }
 
     .btn1 {
@@ -3333,17 +3364,17 @@ footer>section:nth-child(2){
 
     .ass div {
         width: 13vw;
-        height: 25vh;
+        height: 20vh;
     }
 
     .assign img {
-        width: 10vw;
-        height: 20vh;
+        width: 12vw;
+        height: 16vh;
     }
 
     .assign2 img {
-        width: 10vw;
-        height: 20vh;
+        width: 12vw;
+        height: 16vh;
     }
 
     .assign {
@@ -3357,8 +3388,8 @@ footer>section:nth-child(2){
     }
 
     .assign3 img {
-        width: 10vw;
-        height: 20vh;
+        width: 12vw;
+        height: 16vh;
     }
 
     .assign3 {
@@ -3367,8 +3398,8 @@ footer>section:nth-child(2){
     }
 
     .assign4 img {
-        height: 20vh;
-        width: 10vw;
+        width: 12vw;
+        height: 16vh;
     }
 
     .assign4 {
@@ -3377,8 +3408,8 @@ footer>section:nth-child(2){
     }
 
     .assign5 img {
-        height: 20vh;
-        width: 10vw;
+        width: 12vw;
+        height: 16vh;
     }
 
     .assign5 {
@@ -3453,7 +3484,7 @@ footer>section:nth-child(2){
     }
 
     .media-footer img {
-        left: 90%;
+        left: 50%;
     }
 
     .footer-p {
@@ -3850,7 +3881,7 @@ footer>section:nth-child(2){
        }
 
        .media-footer img {
-           left: 140%;
+           left: 85%;
        }
 
        footer > section:nth-child(1) > h3 {
