@@ -7,54 +7,71 @@
 
   <style>
 
-      section{
-          display: flex;
-          justify-content: center;
+      body {
+          background-color: black;
       }
+
+      body > section {
+        position: absolute;
+        top: 0;
+        left: 25%;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        width: 1200px;
+        height: 350px;
+
+      }
+
+
       div{
           height: 50px;
           width: 120px;
           border: 1px solid black;
-          display: inline-block;
-          position: relative;
-      }
-    #div1{
-        top: 100px;
-    }
+          display: flex;
+          margin-left: 1%;
 
-      #div2{
-          top: 150px;
       }
 
-      #div3{
-          top: 150px;
+     body>section div:nth-child(1){
+      margin-bottom: 30vh;
       }
 
-      #div4{
-          top: 150px;
+     body>section div:nth-child(6){
+       margin-top: 30vh;
+     }
+
+      h1 {
+          color: white;
+          text-align: center;
+          margin-top: 5%;
       }
 
-      #div5{
-          top: 200px;
-      }
+
   </style>
 
 
 </head>
 <body>
+
+<h1>Java Script Queue</h1>
+
 <section>
 
-  <div id="div1"></div>
-  <div id="div2"></div>
-  <div id="div3"></div>
-  <div id="div4"></div>
-  <div id="div5"></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
 
 </section>
 
 <script>
     let divs=document.querySelectorAll("section>div");
-   let color =['red','blue','purple','deeppink','yellow'];
+   let color =["red", "green", "blue", "yellow", "pink", "plum"];
 
    setInterval(processQue,200);
 
