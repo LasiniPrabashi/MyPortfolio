@@ -3,8 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+    <style>
+        body{
+            background-color: black;
+        }
+
+        body > section {
+            width: max-content;
+            height: 50vh;
+            position: absolute;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+        }
+
+         h1 {
+            color: white;
+            text-align: center;
+        }
+
+
+
+       .color-div {
+            width: max-content;
+            height: 40vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+       .color-div div{
+           width: 200px;
+           height: 50px;
+           border: 1px solid #000000;
+           position: relative;
+           bottom: 25%;
+       }
+
+        .button{
+            top: 80%;
+            position: absolute;
+            left: 40%;
+        }
+        .button button{
+            width: 100px;
+            height: 40px;
+            border-radius: 10px;
+            margin: 10px;
+            text-align: center;
+            border: 1px solid #000000;
+            color: #ffffff;
+        }
+        #btnStart{
+            background-color: #0a58ca;
+        }
+        #btnStop{
+            background-color: #C0392B;
+        }
+        h2 , .header>div{
+            text-align: center;
+            color: #f2e7c3;
+        }
+        .header>div{
+            color: #a52834;
+            text-align: center;
+            font-weight: bold;
+        }
+
+    </style>
 </head>
 <body>
+<section>
+<h1>Knight Rider</h1>
+<section>
+    <div>
+        <h2 class="me-2">Speed :</h2>
+        <h2>waiting Time :</h2>
+    </div>
+
+</section>
+
+        <section class="color-div">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+
+    <section class="button">
+        <audio src="assest/Knight-Rider.mp3" id="myAudio"></audio>
+        <button  id="btnStart">Start</button>
+        <button id="btnStop">Stop</button>
+        <div>
+            <label for="customRange1" class="form-label"></label>
+            <input type="range" class="form-range" id="customRange1">
+        </div>
+    </section>
+
+</section>
+
+<script>
+    var colors = new Array("#962727", "#b04141", "#ec6666", "#eaadad", "#ffc3c3", "#ffc3c3");
+    var divs = document.querySelectorAll(".color-div div");
+    var startBtn =document.getElementById("btnStart");
+    var stopBtn =document.getElementById("btnStop");
+    var rangeBtn = document.getElementById("customRange1");
+    var h1 = document.querySelector("rSpeed");
+
+    rangeBtn.addEventListener("keyup",function (){
+        h1.innerText = rangeBtn.value;
+    });
+
+    function check_slider(text_id,range_id) {
+        document.getElementById(text_id).value=document.getElementById(range_id).value;
+    }
+
+    setInterval(colorPrograss,100);
+    function colorPrograss(){
+        for (let i = 0; i < colors.length; i++) {
+            divs[i].style.background=colors[i];
+        }
+        let lastValue = colors.pop();
+        colors.unshift(lastValue);
+    }
+
+
+
+    startBtn.addEventListener("click",function(){
+            document.getElementById("myAudio").play();
+        }
+    );
+    stopBtn.addEventListener("click",function(){
+            document.getElementById("myAudio").pause();
+        }
+    );
+
+
+
+
+</script>
 
 </body>
 </html>
