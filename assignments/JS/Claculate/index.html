@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assest/CSS/style.css">
+
+
+</head>
+<body>
+<main>
+<section>
+    <div class="container">
+        <div id="display"></div>
+        <div class="buttons">
+            <div class="button">C</div>
+            <div class="button">/</div>
+            <div class="button">*</div>
+            <div class="button">&larr;</div>
+            <div class="button">7</div>
+            <div class="button">8</div>
+            <div class="button">9</div>
+            <div class="button">-</div>
+            <div class="button">4</div>
+            <div class="button">5</div>
+            <div class="button">6</div>
+            <div class="button">+</div>
+            <div class="button">1</div>
+            <div class="button">2</div>
+            <div class="button">3</div>
+            <div class="button">.</div>
+            <div class="button">(</div>
+            <div class="button">0</div>
+            <div class="button">)</div>
+            <div id="equal" class="button">=</div>
+        </div>
+    </div>
+</section>
+</main>
+
+<script src="assest/code.jquery.com_jquery-3.7.1.min.js"></script>
+<script src="assest/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+
+<script>
+    let display = document.getElementById('display');
+
+    let buttons = Array.from(document.getElementsByClassName('button'));
+
+    buttons.map(button => {
+        button.addEventListener('click', (e) => {
+            switch (e.target.innerText) {
+                case 'C':
+                    display.innerText = '';
+                    break;
+                case '<-':
+                    if (display.innerText) {
+                        display.innerText = display.innerText.slice(0, -1);
+                    }
+                    break;
+                case '=':
+                    try {
+                        display.innerText = eval(display.innerText);
+                    } catch {
+                        display.innerText = 'Error!';
+                    }
+
+                    break;
+                default:
+                    display.innerText += e.target.innerText;
+
+            }
+        })
+    })
+
+</script>
+
+</body>
+</html>

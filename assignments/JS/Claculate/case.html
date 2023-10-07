@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="assest/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+  <style>
+    body main{
+      width: 100vw;
+      height: 100vh;
+      background: url("../image/background-image-fixed.jpg");
+      background-size: cover;
+    }
+
+    body main>section{
+      width: 40vw;
+      height: 100vh;
+      position: absolute;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+
+    body main>section>div{
+      height: 10vh;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<main>
+  <section class="border border-black rounded-5 shadow-lg" style="height: 75vh">
+    <div class="row border border-black rounded-5 m-auto">
+      <div class="row d-flex justify-content-end">
+        <div class="col-2">
+          <h1 id="oparator" class="mt-1 text-warning"></h1>
+        </div>
+
+        <div class="col">
+          <h1 class="mt-1" id="display-text"></h1>
+        </div>
+      </div>
+    </div>
+
+    <section class="container text-center mt-5" id="button-section">
+      <div class="row align-items-start">
+        <div class="col">
+          <button id="btnSum" class="btn btn-info w-100 shadow-lg"><h3>+</h3></button>
+        </div>
+        <div class="col">
+          <button class="btn btn-primary w-100 shadow-lg num"><h6>1</h6></button>
+        </div>
+        <div class="col">
+          <button class="btn btn-primary w-100 shadow-lg num"><h6>2</h6></button>
+        </div>
+
+        <div class="col">
+          <button class="btn btn-primary w-100 shadow-lg num"><h6>3</h6></button>
+        </div>
+      </div>
+
+      <div class="row align-items-start mt-4">
+        <div class="col">
+          <button id="decrement" class="btn btn-info w-100 shadow-lg"><h3>-</h3></button>
+        </div>
+        <div class="col">
+          <button class="btn btn-primary w-100 shadow-lg num"><h6>4</h6></button>
+        </div>
+        <div class="col">
+          <button class="btn btn-primary w-100 shadow-lg num"><h6>5</h6></button>
+        </div>
+
+        <div class="col">
+          <button class="btn btn-primary w-100 shadow-lg num"><h6>6</h6></button>
+        </div>
+      </div>
+
+      <div class="row align-items-start mt-4">
+        <div class="col">
+          <button id="division" class="btn btn-info w-100 shadow-lg"><h3>/</h3></button>
+        </div>
+        <div class="col">
+          <button class="btn btn-primary w-100 shadow-lg num"><h6>7</h6></button>
+        </div>
+        <div class="col">
+          <button class="btn btn-primary w-100 shadow-lg num"><h6>8</h6></button>
+        </div>
+
+        <div class="col">
+          <button class="btn btn-primary w-100 shadow-lg num"><h6>9</h6></button>
+        </div>
+      </div>
+
+      <div class="row align-items-start mt-4">
+        <div class="col-3">
+          <button id="muliple" class="btn btn-info w-100 shadow-lg"><h3>*</h3></button>
+        </div>
+
+        <div class="col">
+          <button class="btn btn-primary w-100 shadow-lg num"><h6>0</h6></button>
+        </div>
+
+        <div class="col">
+          <button class="btn btn-primary w-100 shadow-lg num"><h6>.</h6></button>
+        </div>
+
+      </div>
+      </div>
+      <div class="row mt-2">
+        <div class="col">
+          <button id="btnClear" class="btn btn-secondary w-100 shadow-lg">clear</button>
+        </div>
+        <div class="col">
+          <button id="equal" class="btn btn-danger w-100 shadow-lg">=</button>
+        </div>
+      </div>
+    </section>
+
+  </section>
+</main>
+
+<script src="assets/js/code.jquery.com_jquery-3.7.1.min.js.js"></script>
+<script src="assets/js/index.js"></script>
+</body>
+</html>
