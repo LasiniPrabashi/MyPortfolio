@@ -5,6 +5,7 @@
     <title>Title</title>
     <link rel="stylesheet" href="assets/bootstrap-5.3.2-dist/css/bootstrap.css">
 
+
 </head>
 <body>
 <header>
@@ -426,64 +427,70 @@
     //     }
     // });
 
-    $("#btnCustomer").click(function () {
-
-        let cus_ID = $("#txtCustId").val();
-        let cus_Name = $("#txtName").val();
-        let cus_Address = $("#txtAddress").val();
-        let cus_Salary = $("#txtSalry").val();
-
-        var customer = {
-            id: cus_ID,
-            name: cus_Name,
-            address: cus_Address,
-            salary: cus_Salary
-        }
-
-        //add customer to object to the array
-        customers.push(customer);
-        getAllCustomers();
-        console.log(customers);
-    });
-
-
-    $("#btnGetAll").click(function (){
-        getAllCustomers();
-    });
-
-    function getAllCustomers(){
-        //remove all the child elements of tbody before adding the table rows
-        $("#tblCustomer").empty();
-
-        for (let i = 0; i < customers.length; i++) {
-            let row = `<tr>
-                            <td>${customers[i].id}</td>
-                            <td>${customers[i].name}</td>
-                            <td>${customers[i].address}</td>
-                            <td>${customers[i].salary}</td>
-                        </tr>`;
-            $("#tblCustomer").append(row);
-        }
-    }
-
-
-    $('#tblCustomer>tr').click(function () {
-
-        let id = $(this).children(':nth-child(1)').text();
-        let name = $(this).children(':nth-child(2)').text();
-        let address = $(this).children(':nth-child(3)').text();
-        let salary = $(this).children(':nth-child(4)').text();
-
-        setTextFieldValues(id,name,address,salary);
-    });
-
-    function setTextFieldValues(id, name, address, salary) {
-        $("#txtCustId").val(id);
-        $("#txtName").val(name);
-        $("#txtAddress").val(address);
-        $("#txtSalry").val(salary);
-    }
+    // $("#btnCustomer").click(function () {
+    //
+    //     let cus_ID = $("#txtCustId").val();
+    //     let cus_Name = $("#txtName").val();
+    //     let cus_Address = $("#txtAddress").val();
+    //     let cus_Salary = $("#txtSalry").val();
+    //
+    //     var customer = {
+    //         id: cus_ID,
+    //         name: cus_Name,
+    //         address: cus_Address,
+    //         salary: cus_Salary
+    //     }
+    //
+    //     //add customer to object to the array
+    //     customers.push(customer);
+    //     getAllCustomers();
+    //     console.log(customers);
+    // });
+    //
+    //
+    // $("#btnGetAll").click(function (){
+    //     getAllCustomers();
+    // });
+    //
+    // function getAllCustomers(){
+    //     //remove all the child elements of tbody before adding the table rows
+    //     $("#tblCustomer").empty();
+    //
+    //     for (let i = 0; i < customers.length; i++) {
+    //         let row = `<tr>
+    //                         <td>${customers[i].id}</td>
+    //                         <td>${customers[i].name}</td>
+    //                         <td>${customers[i].address}</td>
+    //                         <td>${customers[i].salary}</td>
+    //                     </tr>`;
+    //         $("#tblCustomer").append(row);
+    //     }
+    // }
+    //
+    //
+    // $('#tblCustomer>tr').click(function () {
+    //
+    //     let id = $(this).children(':nth-child(1)').text();
+    //     let name = $(this).children(':nth-child(2)').text();
+    //     let address = $(this).children(':nth-child(3)').text();
+    //     let salary = $(this).children(':nth-child(4)').text();
+    //
+    //     setTextFieldValues(id,name,address,salary);
+    // });
+    //
+    // function setTextFieldValues(id, name, address, salary) {
+    //     $("#txtCustId").val(id);
+    //     $("#txtName").val(name);
+    //     $("#txtAddress").val(address);
+    //     $("#txtSalry").val(salary);
+    // }
 
 </script>
+<script src="db/db.js"></script>
+
+<script src="controller/CustomerController.js"></script>
+<script src="models/Customer.js"></script>
+<script src="controller/validation/CustomerValidation.js"></script>
+
 </body>
 </html>
