@@ -1,32 +1,44 @@
 getAllCustomers();
 
 $("#btnCustomer").click(function () {
+    if (checkAllCust()){
         saveCustomer();
-    });
+        cusCount();
+    }else{
+        alert("Error");
+    }
+});
 
 $("#btnCustGetAll").click(function () {
     getAllCustomers();
+    loadAllCusID();
 });
 
 $("#btnClear").click(function () {
     clearCustomerInputFields();
 });
 
-function bindTrEvents() {
-    $('#tblCustomer>tr').click(function () {
-        //get the selected rows data
-        let id = $(this).children().eq(0).text();
-        let name = $(this).children().eq(1).text();
-        let address = $(this).children().eq(2).text();
-        let salary = $(this).children().eq(3).text();
+$("#btnDelete").click(function (){
+    let id = $("#txtCustomerID").val();
 
-        //set the selected rows data to the input fields
-        $("#txtCustomerID").val(id);
-        $("#txtCustomerName").val(name);
-        $("#txtCustomerAddress").val(address);
-        $("#txtCustomerSalary").val(salary);
-    })
-}
+    let consent = confirm("Do you want to delete.?");
+    if (consent) {
+        let response = deleteCustomer(id);
+        if (response) {
+            alert("Customer Deleted");
+            clearCustomerInputFields();
+            getAllCustomers();
+        } else {
+            alert("Customer Not Removed..!");
+        }
+    }
+});
+
+$("#btnUpdate").click(function () {
+    let id = $("#txtCustomerID").val();
+    updateCustomer(id);
+    clearCustomerInputFields();
+});
 
 function getAllCustomers() {
     //remove all the child elements of tbody before adding the table rows
@@ -50,6 +62,23 @@ function getAllCustomers() {
     bindTrEvents();
 
 }
+
+function bindTrEvents() {
+    $('#tblCustomer>tr').click(function () {
+        //get the selected rows data
+        let id = $(this).children().eq(0).text();
+        let name = $(this).children().eq(1).text();
+        let address = $(this).children().eq(2).text();
+        let salary = $(this).children().eq(3).text();
+
+        //set the selected rows data to the input fields
+        $("#txtCustomerID").val(id);
+        $("#txtCustomerName").val(name);
+        $("#txtCustomerAddress").val(address);
+        $("#txtCustomerSalary").val(salary);
+    })
+}
+
 
 function saveCustomer() {
     let customerID = $("#txtCustomerID").val();
@@ -122,25 +151,3 @@ function updateCustomer(id) {
     }
 
 }
-
-$("#btnDelete").click(function (){
-    let id = $("#txtCustomerID").val();
-
-    let consent = confirm("Do you want to delete.?");
-    if (consent) {
-        let response = deleteCustomer(id);
-        if (response) {
-            alert("Customer Deleted");
-            clearCustomerInputFields();
-            getAllCustomers();
-        } else {
-            alert("Customer Not Removed..!");
-        }
-    }
-});
-
-$("#btnUpdate").click(function () {
-    let id = $("#txtCustomerID").val();
-    updateCustomer(id);
-    clearCustomerInputFields();
-});
