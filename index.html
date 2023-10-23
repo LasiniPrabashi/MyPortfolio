@@ -14,6 +14,7 @@
     <meta name="viewport" content="width=device=width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/fontawesome-free-6.4.2-web/css/all.min.css">
 
+
 </head>
 <body>
     <header class="header">
@@ -375,45 +376,7 @@
 
 
     <script src="assets/code.jquery.com_jquery-3.7.1.min.js"></script>
-
-<script>
-     const text = document.querySelector(".h5");
-     const textLoad = () => {
-     setTimeout(() =>{
-     text.textContent = "Front-End Developer";
-     },0);
-     setTimeout(() =>{
-     text.textContent = "Graphic Designer";
-     },4000);
-     }
-     textLoad();
-     setInterval(textLoad,8000);
-
-     /scroll section/
-     let sections = document.querySelectorAll('section');
-     let section = document.querySelectorAll('header nav a');
-
-     window.onscroll = () =>{
-         /sticky header/
-         let header = document.querySelector('header');
-         header.classList.toggle('sticky', window.scrollY>100);
-
-         /remove icon and navbar when click navbar/
-         menuIcon.classList.remove('bx-x');
-         navbar.classList.remove('active');
-     }
-
-
-     /menu icon/
-     let menuIcon = document.querySelector('#menu-icon');
-     let navbar =document.querySelector('.nav_bar');
-
-     menuIcon.onclick = () =>{
-         menuIcon.classList.toggle('bx-x');
-         navbar.classList.toggle('active');
-     }
-
-</script>
+    <script src="assets/Style/js.js"></script>
 
 </body>
 </html>
