@@ -2084,9 +2084,11 @@ footer>section:nth-child(2){
         transition: .25s ease;
         transition-delay: .25s;
         z-index: 1;
+        display: none;
     }
 
     .nav_bar.active{
+        display: block;
         left: 0;
         transition-delay: 0s;
     }
