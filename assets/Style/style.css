@@ -2548,34 +2548,74 @@ footer>section:nth-child(2){
 }
 
 @media all and (min-width: 425px) and (max-width: 520px){
-    .logo {
-        font-size: 15px;
-        top: 10px;
+
+    .header{
+        padding: 5px 0% 0;
+    }
+
+    #menu-icon{
+        display: block;
+    }
+
+    .nav_bar{
         position: absolute;
-        right: 300%;
-    }
-    header {
-        width: max-content;
-        /* right: 0; */
-        left: 50%;
+        top: 75%;
+        left: -100%;
+        width: 100%;
+        padding: 1rem 4%;
+        background: #323946;
+        box-shadow: 0.5rem 1rem  #323946;
+        transition: .25s ease;
+        transition-delay: .25s;
+        z-index: 1;
     }
 
-    header>nav>ul {
+    .nav_bar.active{
+        left: 0;
+        transition-delay: 0s;
+    }
+
+    .nav_bar .active-nav{
         position: absolute;
-        top: 1px;
-        left: 20px;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #323946;
+        border-top: .1rem solid #323946;
+        z-index: -1;
+        transition: .25s ease;
+        transition-delay: 0s;
     }
 
-    header>nav>ul {
-        position: absolute;
-        top: 5px;
-        left: 13vw;
+
+    .nav_bar .active{
+        display: block;
     }
 
-    header>nav>ul>li {
-        font-size: 11px;
+    .nav_bar.active .active-nav{
+        left: 0;
+        transition-delay: .25s;
     }
 
+
+    .nav_bar a{
+        display: block;
+        font-size: 1rem;
+        margin: 1rem 0;
+        transform: translateX(-20rem);
+        transition: .25s ease;
+        transition-delay: 0s;
+    }
+
+
+    .nav_bar.active a{
+        transform: translateX(0);
+        transition-delay: .25s;
+    }
+    .nav_bar li{
+        display:block;
+    }
     .img {
         height: 40vh;
         width: 70vw;
