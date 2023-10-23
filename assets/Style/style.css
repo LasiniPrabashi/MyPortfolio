@@ -35,6 +35,17 @@ header{
     text-decoration: none;
 }
 
+.nav_bar a:hover,
+.nav_bar a.active{
+ color: #00eeff;
+}
+
+#menu-icon{
+    font-size: 2rem;
+    color: #00eeff;
+
+}
+
 header>nav>ul{
     position: absolute;
     top: 5px;
@@ -132,6 +143,8 @@ main>section:nth-child(1){
     font-size: 2.6rem;
     line-height: 1;
     font-weight: 600;
+    color: #00eeff;
+
 }
 
 .home-content h3{
@@ -184,6 +197,7 @@ span{
     border: 1rem solid #1f242d;
     transition: .5s ease;
 
+
 }
 
 .social-media img:hover{
@@ -191,6 +205,12 @@ span{
     color:#323946;
     box-shadow: 0 0 1rem #0ef;
     transform: scale(1.02);
+
+
+    /*background: #00F6F6;*/
+    /*color: #040C13;*/
+    /*box-shadow: 0 0 1rem #00F6F6;*/
+
 }
 
 
@@ -1543,6 +1563,22 @@ footer>section:nth-child(2){
 
 
 @media all and (min-width: 320px) and (max-width:375px){
+    #menu-icon{
+        display: block;
+    }
+   .nav_bar {
+        position: absolute;
+        top: 100%;
+        left: -100%;
+        width: 100%;
+        padding: 1rem 4%;
+        background: black;
+        box-shadow: 0.5rem 1rem  #000712 ;
+        transition: .25s ease;
+        transition-delay: .25s;
+        z-index: 1;
+        }
+
     .logo {
         font-size: 15px;
         top: 10px;
