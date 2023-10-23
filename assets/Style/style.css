@@ -2568,6 +2568,7 @@ footer>section:nth-child(2){
         transition: .25s ease;
         transition-delay: .25s;
         z-index: 1;
+        display: none;
     }
 
     .nav_bar.active{
@@ -2616,6 +2617,7 @@ footer>section:nth-child(2){
     .nav_bar li{
         display:block;
     }
+
     .img {
         height: 40vh;
         width: 70vw;
