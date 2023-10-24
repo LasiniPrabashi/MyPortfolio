@@ -34,3 +34,10 @@ menuIcon.onclick = () =>{
     menuIcon.classList.toggle('fa-xmark');
     navbar.classList.toggle('active');
 }
+
+
+    $(window).on('load',function (){
+    // $("#loader").css('display','none');
+    $("#loader").fadeOut(8000);
+    console.log("Window is fully loaded");
+});
