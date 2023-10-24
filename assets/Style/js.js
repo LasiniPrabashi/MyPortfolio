@@ -36,7 +36,7 @@ menuIcon.onclick = () =>{
 }
 
 
-    $(window).on('load',function (){
+$(window).on('load',function (){
     // $("#loader").css('display','none');
     $("#loader").fadeOut(8000);
     console.log("Window is fully loaded");
