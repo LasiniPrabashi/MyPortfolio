@@ -1,29 +1,29 @@
 
-const CODE_REGEX = /^(I00-)[0-9]{3}$/;
-const DES_REGEX = /^[A-Za-z ]{5,}$/;
-const QTY_REGEX = /^[0-9]{2,}$/;
-const PRICE_REGEX = /^[0-9]{2,}$/;
+const ITEM_ID_REGEX = /^(I00-)[0-9]{3}$/;
+const ITEM_NAME_REGEX = /^[A-Za-z ]{5,}$/;
+const ITEM_PRICE_REGEX = /^[0-9]{2,}([.][0-9]{2})?$/;
+const ITEM_QTY_REGEX = /^[0-9]{2,}([.][0-9]{2})?$/;
 
-//add validations and text fields to the
-let item_vArray = new Array();
-item_vArray.push({field: $("#txtItemId"), regEx: CODE_REGEX});
-item_vArray.push({field: $("#txtItemName"), regEx: DES_REGEX});
-item_vArray.push({field: $("#txtQty"), regEx: QTY_REGEX});
-item_vArray.push({field: $("#txtPrice"), regEx: PRICE_REGEX});
+let i_vArray = new Array();
+i_vArray.push({field: $("#txtItemId"), regEx: ITEM_ID_REGEX});
+i_vArray.push({field: $("#txtItemName"), regEx: ITEM_NAME_REGEX});
+// c_vArray.push({field: $("#txtCustomerAddress"), regEx: CUS_ADDRESS_REGEX});
+i_vArray.push({field: $("#txtPrice"), regEx: ITEM_PRICE_REGEX});
+i_vArray.push({field: $("#txtQty") , regEx: ITEM_QTY_REGEX})
 
 function clearItemInputFields() {
-    $("#txtItemId,#txtItemName,#txtQty,#txtPrice").val("");
-    $("#txtItemId,#txtItemName,#txtQty,#txtPrice").css("border", "1px solid #ced4da");
+    $("#txtItemId,#txtItemName,#txtPrice,#txtQty").val("");
+    $("#txtItemId,#txtItemName,#txtPrice,#txtQty").css("border", "1px solid #ced4da");
     $("#txtItemId").focus();
-    setBtn();
+    setItemBtn();
 }
 
-setBtn();
+setItemBtn();
 
-//disable tab
-$("#txtItemId,#txtItemName,#txtQty,#txtPrice").on("keydown keyup", function (e) {
+
+$("#txtItemId,#txtItemName,#txtPrice").on("keydown keyup", function (e) {
     //get the index number of data input fields indexNo
-    let indexNoItem = item_vArray.indexOf(item_vArray.find((i) => i.field.attr("id") == e.target.id));
+    let indexNo = i_vArray.indexOf(i_vArray.find((i) => i.field.attr("id") == e.target.id));
 
     //Disable tab key
     if (e.key == "Tab") {
@@ -31,27 +31,28 @@ $("#txtItemId,#txtItemName,#txtQty,#txtPrice").on("keydown keyup", function (e) 
     }
 
     //check validations
-    checkValidations(item_vArray[indexNoItem]);
+    checkItemValidations(i_vArray[indexNo]);
 
-    setBtn();
+    setItemBtn();
 
     //If the enter key pressed cheque and focus
     if (e.key == "Enter") {
 
-        if (e.target.id != item_vArray[item_vArray.length - 1].field.attr("code")) {
+        if (e.target.id != i_vArray[i_vArray.length - 1].field.attr("id")) {
             //check validation is ok
-            if (checkValidations(item_vArray[indexNoItem])) {
-                item_vArray[indexNoItem + 1].field.focus();
+            if (checkItemValidations(i_vArray[indexNo])) {
+                i_vArray[indexNo + 1].field.focus();
             }
         } else {
-            if (checkValidations(item_vArray[indexNoItem])) {
+            if (checkItemValidations(i_vArray[indexNo])) {
                 saveItem();
             }
         }
     }
 });
 
-function checkValidations(object) {
+
+function checkItemValidations(object) {
     if (object.regEx.test(object.field.val())) {
         setBorder(true, object)
         return true;
@@ -60,7 +61,8 @@ function checkValidations(object) {
     return false;
 }
 
-function setBorder(bol, ob) {
+
+function setItemBorder(bol, ob) {
     if (!bol) {
         if (ob.field.val().length >= 1) {
             ob.field.css("border", "2px solid red");
@@ -77,33 +79,33 @@ function setBorder(bol, ob) {
 
 }
 
-function checkAll() {
-    for (let i = 0; i < item_vArray.length; i++) {
-        if (!checkValidations(item_vArray[i])) return false;
+
+function checkAllItem() {
+    for (let i = 0; i < i_vArray.length; i++) {
+        if (!checkItemValidations(i_vArray[i])) return false;
     }
     return true;
 }
 
-function setBtn() {
-    $("#btnItemDelete").prop("disabled", true);
-    $("#btnItemUpdate").prop("disabled", true);
 
-    if (checkAll()) {
-        $("#btnItem").prop("disabled", false);
-    } else {
-        $("#btnItem").prop("disabled", true);
-    }
+// function setItemBtn() {
+//     // $("#btnItemDelete").prop("disabled", true);
+//     // $("#btnItemUpdate").prop("disabled", true);
 
-    let code = $("#txtItemId").val();
-    if (searchItem(code) == undefined) {
-        $("#btnItemDelete").prop("disabled", false);
-        $("#btnItemUpdate").prop("disabled", true);
-    } else {
-        $("#btnItemDelete").prop("disabled", false);
-        $("#btnItemUpdate").prop("disabled", false);
-    }
+//     if (checkAllItem()) {
+//         $("#btnItem").prop("disabled", false);
+//     } else {
+//         // $("#btnItem").prop("disabled", true);
+//     }
 
-}
+//     let code = $("#txtItemId").val();
+//     if (searchItem(code) == undefined) {
+//         // $("#btnItemDelete").prop("disabled", true);
+//         // $("#btnItemUpdate").prop("disabled", true);
+//     } else {
+//         $("#btnItemDelete").prop("disabled", false);
+//         $("#btnItemUpdate").prop("disabled", false);
+//     }
 
-
+// }
 

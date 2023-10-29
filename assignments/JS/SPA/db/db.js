@@ -9,3 +9,7 @@ var itemDB = [
     {code:"I00-002",description:"Chocolate",qtyOnHand: 150,unitPrice: 345.00},
     {code:"I00-003",description:" Biscuit",qtyOnHand: 400,unitPrice: 245.00}
 ];
+
+
+var orderDB = [];
+var purchaseOrderDetailsDB=[];

@@ -59,11 +59,10 @@
 </header>
 
 <section id="CustomerFormManage">
-    <h2 style="margin: 20px"><i class="fa-solid fa-list-check"></i>   Customer Manage</h2>
     <div class="container text-center">
         <div class="row align-items-start">
             <div class="col-5 mb-3">
-                <div class="card border-success " style="max-width: 25rem; height: 460px;">
+                <div class="card border-success " style="max-width: 25rem; height: 480px;">
                     <div class="card-header text-white bg-success">Customer Form</div>
                     <div class="card-body m-3">
                         <form>
@@ -105,7 +104,7 @@
 
             <div class="col-7">
                 <table class="table table-bordered table-hover">
-                    <thead class="table-success bg-success">
+                    <thead class="bg-danger text-white">
                     <tr>
                         <th>Customer ID</th>
                         <th>Customer Name</th>
@@ -151,13 +150,13 @@
                                     <input type="text" class="form-control mb-3" id="txtQty">
                                 </div>
                                 <div class="btn-group " role="group" aria-label="Basic example">
-                                    <button type="button" class="btn btn-danger" style="width: 100px">Save</button>
-                                    <button type="button" class="btn btn-warning" style="width: 100px">Update</button>
-                                    <button type="button" class="btn btn-success" style="width: 100px">Clear</button>
+                                    <button id="btnItem" type="button" class="btn btn-danger" style="width: 100px">Save</button>
+                                    <button id="btnItemUpdate" type="button" class="btn btn-warning" style="width: 100px">Update</button>
+                                    <button id="btnItemDelete" type="button" class="btn btn-success" style="width: 100px">Delete</button>
                                 </div>
                                 <div class="btn-group m-3" role="group" aria-label="Basic example">
-                                    <button type="button" class="btn btn-warning" style="width: 100px">Update</button>
-                                    <button type="button" class="btn btn-success" style="width: 100px">Clear</button>
+                                    <button id="btnItemGetAll" type="button" class="btn btn-warning" style="width: 100px">GetAll</button>
+                                    <button id="btnItemClear" type="button" class="btn btn-success" style="width: 100px">Clear</button>
                                 </div>
                             </div>
                         </form>
@@ -174,8 +173,21 @@
                         <th scope="col">Price</th>
                     </tr>
                     </thead>
+
                     <tbody id="tblItem">
 
+                    <!-- <tr>
+                        <th scope="row"></th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr> -->
                     </tbody>
                 </table>
             </div>
@@ -183,17 +195,12 @@
     </div>
 </section>
 
-<main id="orderManage">
-    <h2><i class="fa-solid fa-list-check"></i>Order Manage</h2>
-    <section class="mt-4 m-lg-4" style="width: 95vw; height: 75vh; border: 1px solid black">
-        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Order</li>
-            </ol>
-        </nav>
 
-        <div class="container text-center">
+
+<main id="orderManage">
+    <h2 style="margin: 20px"><i class="fa-solid fa-list-check"></i>   Order Manage</h2>
+    <section class="mt-4 m-lg-4" >
+        <div class="container text-center mb-3">
             <div class="row align-items-start">
                 <div class="col">
 
@@ -203,36 +210,30 @@
                             <form>
                                 <div class="row">
                                     <div class="col">
-                                        <input type="text" class="form-control mb-2" placeholder="Order Id" aria-label="First name">
+                                        <input id="txtOrderID" type="text" class="form-control mb-2" placeholder="Order Id" aria-label="First name">
                                     </div>
                                     <div class="col">
-                                        <input type="Date" class="form-control mb-2" placeholder="Last name" aria-label="Last name">
+                                        <input id="OrderDate" type="text" class="form-control mb-2" placeholder="Last name" aria-label="Last name">
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col">
-                                        <select class="form-select" aria-label="Default select example">
-                                            <option selected>C001</option>
-                                            <option value="1">One</option>
-                                            <option value="2">Two</option>
-                                            <option value="3">Three</option>
+                                    <div class="col mb-2">
+                                        <select id="MenuCus" class="form-select" aria-label="Default select example">
+                                            <option selected>Select ID</option>
                                         </select>
                                     </div>
+                                </div>
+                                <div class="row">
                                     <div class="col">
-                                        <input type="text" class="form-control mb-2" placeholder="Customer ID" aria-label="Last name">
+                                        <input id="CusAutoName" type="text" class="form-control mb-2" placeholder="Name" aria-label="First name">
+                                    </div>
+                                    <div class="col">
+                                        <input id="CusAutoSalary" type="text" class="form-control mb-2" placeholder="Salary" aria-label="Last name">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col">
-                                        <input type="text" class="form-control mb-2" placeholder="Name" aria-label="First name">
-                                    </div>
-                                    <div class="col">
-                                        <input type="text" class="form-control mb-2" placeholder="Salary" aria-label="Last name">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <input type="text" class="form-control mb-2" placeholder="Address" aria-label="First name">
+                                        <input id="CusAutoAddres" type="text" class="form-control mb-2" placeholder="Address" aria-label="First name">
                                     </div>
                                 </div>
                             </form>
@@ -247,36 +248,30 @@
                         <div class="card-body m-3">
                             <form>
                                 <div class="row">
-                                    <div class="col">
-                                        <select class="form-select" aria-label="Default select example">
-                                            <option selected>C001</option>
-                                            <option value="1">One</option>
-                                            <option value="2">Two</option>
-                                            <option value="3">Three</option>
+                                    <div class="col mb-2">
+                                        <select id="MenuItem" class="form-select" aria-label="Default select example">
+                                            <option selected>Select Code</option>
                                         </select>
                                     </div>
+                                </div>
+                                <div class="row">
                                     <div class="col">
-                                        <input type="text" class="form-control mb-2" placeholder="Item Code" aria-label="Last name">
+                                        <input id="IAutoName" type="text" class="form-control mb-2" placeholder="Item Name" aria-label="First name">
+                                    </div>
+                                    <div class="col">
+                                        <input id="IAutoPrice" type="text" class="form-control mb-2" placeholder="Price" aria-label="Last name">
+                                    </div>
+                                    <div class="col">
+                                        <input id="IAutoQty" type="text" class="form-control mb-2" placeholder="QtyOnH" aria-label="Last name">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col">
-                                        <input type="text" class="form-control mb-2" placeholder="Item Name" aria-label="First name">
-                                    </div>
-                                    <div class="col">
-                                        <input type="text" class="form-control mb-2" placeholder="Price" aria-label="Last name">
-                                    </div>
-                                    <div class="col">
-                                        <input type="text" class="form-control mb-2" placeholder="QtyOnH" aria-label="Last name">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <input type="text" class="form-control mb-3" placeholder="Order QTY" aria-label="First name">
+                                        <input id="IAutoOrderQty" type="number" class="form-control mb-3" placeholder="Order QTY" aria-label="First name">
                                     </div>
                                 </div>
 
-                                <button type="button" class="btn btn-primary btn-sm">Add Item</button>
+                                <button id="OrderSave" type="button" class="btn btn-primary btn-sm">Add Item</button>
                             </form>
                         </div>
                     </div>
@@ -289,18 +284,18 @@
                             <h5 class="card-title">Sub Total</h5>
                             <div class="row">
                                 <div class="col">
-                                    <input type="text" class="form-control mb-2" placeholder="Cash" aria-label="Cash">
+                                    <input  id="CashInput" type="text" class="form-control mb-2" placeholder="Cash" aria-label="Cash">
                                 </div>
                                 <div class="col">
-                                    <input type="text" class="form-control mb-2" placeholder="Discount" aria-label="Discount">
+                                    <input id="DiscountInput"  type="text" class="form-control mb-2" placeholder="Discount" aria-label="Discount">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col">
-                                    <input type="text" class="form-control mb-2" placeholder="Balance" aria-label="Balance">
+                                    <input id="BalanceValue" type="text" class="form-control mb-2" placeholder="Balance" aria-label="Balance">
                                 </div>
                             </div>
-                            <button type="button" class="btn btn-primary btn-sm">Purchase</button>
+                            <button id="btnPurchase" type="button" class="btn btn-primary btn-sm">Purchase</button>
                         </div>
                     </div>
                 </div>
@@ -308,8 +303,8 @@
         </div>
 
 
-        <table class="table overflow-auto">
-            <thead >
+        <table class="table table-bordered table-hover">
+            <thead class="table-success bg-success">
             <tr class="table-success bg-success">
                 <th scope="col">Item code</th>
                 <th scope="col">Item Name</th>
@@ -318,25 +313,13 @@
                 <th scope="col">Total</th>
             </tr>
             </thead>
-            <tbody>
-            <tr>
-                <th scope="row">C001</th>
-                <td>soap</td>
-                <td>10</td>
-                <td>120.00</td>
-                <td>1200.00</td>
-            </tr>
-            <tr>
-                <th scope="row">C002</th>
-                <td>chocalate</td>
-                <td>30</td>
-                <td>1200.00</td>
-                <td>36000.00</td>
-            </tr>
+            <tbody id="tblOrder">
+
             </tbody>
         </table>
     </section>
 </main>
+
 
 <script src="assets/code.jquery.com_jquery-3.7.1.min.js"></script>
 <script src="assets/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
@@ -492,5 +475,8 @@
 <script src="controller/validation/ItemValidation.js"></script>
 <script src="controller/ItemController.js"></script>
 <script src="models/Item.js"></script>
+
+<script src="controller/OrderController.js"></script>
+
 </body>
 </html>

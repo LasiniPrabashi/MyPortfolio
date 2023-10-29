@@ -4,7 +4,7 @@ const textLoad = () => {
         text.textContent = "Front-End Developer";
     },0);
     setTimeout(() =>{
-        text.textContent = "Graphic Designer";
+        text.textContent = "Full Stack Developer";
     },4000);
 }
 textLoad();
@@ -36,8 +36,8 @@ menuIcon.onclick = () =>{
 }
 
 
-$(window).on('load',function (){
+ $(window).on('load',function (){
     // $("#loader").css('display','none');
-    $("#loader").fadeOut(8000);
+    $("#loader").fadeOut(10000);
     console.log("Window is fully loaded");
 });

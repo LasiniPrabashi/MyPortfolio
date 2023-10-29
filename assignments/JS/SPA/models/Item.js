@@ -1,6 +1,7 @@
-let item={
-    code:"",
-    description:"",
-    qtyOnHand:0,
-    unitPrice:0
+let item = {
+    code: "",
+    description: "",
+    unitPrice:0,
+    qtyOnHand: 0
+
 }
